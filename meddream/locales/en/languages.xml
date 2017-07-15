@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>EN</language>
+	<login>
+		<errorUsernamePassword>Error: Please check your username and password or contact your system administrator</errorUsernamePassword>
+		<errorObjNotFound1>object</errorObjNotFound1>
+		<errorObjNotFound2>not found</errorObjNotFound2>
+		<errorObjNotFound3>You may try to find it manually after logging in</errorObjNotFound3>
+		<errorValidateConnect>Error: Can't connect to the database for HIS link validation.&#13;&#13;Please contact your system administrator</errorValidateConnect>
+		<errorValidateQuery>Error: HIS link validation query failed.&#13;&#13;Please contact your system administrator</errorValidateQuery>
+		<errorTooManyFailures>Error: too many login failures, please try in {n} min</errorTooManyFailures>
+		<missingExt>Error: PHP extension "{n}" not installed</missingExt>
+		<missingExtMeddream>Error: php_meddream.dll not installed</missingExtMeddream>
+		<testWriteable>Error: the MedDream directory is not writeable (hint: {r})</testWriteable>
+		<testWriteableTemp>Error: the 'temp' subdirectory is not writeable (hint: {r})</testWriteableTemp>
+		<testWriteableLog>Error: the 'log' subdirectory is not writeable (hint: {r})</testWriteableLog>
+		<isTimezoneError>Error: date.timezone not specified in php.ini</isTimezoneError>
+		<oldPhpVersion>Error: MedDream requires PHP 5.3.0 or higher (current PHP is {v})</oldPhpVersion>
+		<unsupportedCgi>Error: PHP is integrated into the Web server via the "{s}" SAPI. This mode is not supported.</unsupportedCgi>
+	</login>
+	<Main>
+		<btnLanguage>EN</btnLanguage>
+		<helpURL>locales/en/help.pdf</helpURL>
+		<btnSearch>Search</btnSearch>
+		<btnLogoff>Log off</btnLogoff>
+		<btnPlugin>Plugins</btnPlugin>
+		<btnChanels>Channels</btnChanels>
+		<btnMove>Hand</btnMove>
+		<btnZoom>Zoom</btnZoom>
+		<btnMeasure>Measure</btnMeasure>
+		<btnMagnifinder>Magnifier</btnMagnifinder>
+		<btnZoomAll>Fit</btnZoomAll>
+		<btnZoom11>1:1</btnZoom11>
+		<btnTransform>Transform</btnTransform>
+		<btnLockScroll>Lock</btnLockScroll>
+		<btnReferenceLines>Reference Lines</btnReferenceLines>
+		<btnScroll>Scroll</btnScroll>
+		<btnMultiImage11>1x1</btnMultiImage11>
+		<btnMultiImage22>2x2</btnMultiImage22>
+		<btnScreenLayout11>1x1</btnScreenLayout11>
+		<btnScreenLayout12>1x2</btnScreenLayout12>
+		<btnScreenLayout22>2x2</btnScreenLayout22>
+		<btnScreenLayout>Layout</btnScreenLayout>
+		<btnThumbnailsPosition>Thumbnails</btnThumbnailsPosition>
+		<btnPrint>Print</btnPrint>
+		<btnForward>Forward</btnForward>
+		<btnBurn>Burn</btnBurn>
+		<btnDownload>Save Images</btnDownload>
+		<btnReset>Reset</btnReset>
+		<btnAnnotation>i</btnAnnotation>
+		<btnmpr>MPR</btnmpr>
+		<btnCine>Cine</btnCine>
+		<btnFilter>Filter 1</btnFilter>
+		<btnoriginal>Original</btnoriginal>
+		<btncompare>Compare ECG</btncompare>
+		<btnbanpassfilter>50 Hz</btnbanpassfilter>
+		<btnSettings>Settings</btnSettings>
+		<btnInfo>About</btnInfo>
+		<btnHelp>Help</btnHelp>
+		<btnFullScreen>FullScreen</btnFullScreen>
+		<btnClose>Close</btnClose>
+		<btnWL>Windowing</btnWL>
+		<btnWL.toolTip>Windowing (W)</btnWL.toolTip>
+		<btnMove.toolTip>Hand (H)</btnMove.toolTip>
+		<btnZoom.toolTip>Zoom (+/-)</btnZoom.toolTip>
+		<btnMeasure.toolTip>Measure</btnMeasure.toolTip>
+		<btnMagnifinder.toolTip>Magnifier (M)</btnMagnifinder.toolTip>
+		<btnZoomAll.toolTip>Fit to Screen (2)</btnZoomAll.toolTip>
+		<btnZoom11.toolTip>1:1 Resolution (1)</btnZoom11.toolTip>
+		<btnTransform.toolTip>Transform</btnTransform.toolTip>
+		<btnLockScroll.toolTip>Lock Scroll</btnLockScroll.toolTip>
+		<btnScroll.toolTip>Set Scroll</btnScroll.toolTip>
+		<btnReferenceLines.toolTip>Reference Lines</btnReferenceLines.toolTip>
+		<btnNotes.toolTip>Report</btnNotes.toolTip>
+		<btnMultiImage11.toolTip>1x1 Multi Image</btnMultiImage11.toolTip>
+		<btnMultiImage22.toolTip>2x2 Multi Image</btnMultiImage22.toolTip>
+		<btnScreenLayout11.toolTip>1x1 Screen Layout</btnScreenLayout11.toolTip>
+		<btnScreenLayout12.toolTip>1x2 Screen Layout</btnScreenLayout12.toolTip>
+		<btnScreenLayout22.toolTip>2x2 Screen Layout</btnScreenLayout22.toolTip>
+		<btnScreenLayout.toolTip>Screen Layout</btnScreenLayout.toolTip>
+		<btnThumbnailsPosition.toolTip>Thumbnails Position Left/Bottom</btnThumbnailsPosition.toolTip>
+		<btnForward.toolTip>Forward</btnForward.toolTip>
+		<btnBurn.toolTip>Burn</btnBurn.toolTip>
+		<btnPrint.toolTip>Print</btnPrint.toolTip>
+		<btnReports.toolTip>Reports</btnReports.toolTip>
+		<btnSettings.toolTip>Settings</btnSettings.toolTip>
+		<btnInfo.toolTip>About</btnInfo.toolTip>
+		<btnHelp.toolTip>Help (F1)</btnHelp.toolTip>
+		<btnFullScreen.toolTip>FullScreen</btnFullScreen.toolTip>
+		<btnPlugin.toolTip>Plugins</btnPlugin.toolTip>
+		<btnChanels.toolTip>RGB channels</btnChanels.toolTip>
+		<btnCine.toolTip>Cine mode</btnCine.toolTip>
+		<btntags.toolTip>Show DICOM file header</btntags.toolTip>
+		<windowingDefault>Default</windowingDefault>
+		<windowingAuto>Auto</windowingAuto>
+		<windowingAbdomen>Abdomen</windowingAbdomen>
+		<windowingBone>Bone</windowingBone>
+		<windowingCerebrum>Cerebrum</windowingCerebrum>
+		<windowingLiver>Liver</windowingLiver>
+		<windowingLung>Lung</windowingLung>
+		<windowingMediastinum>Mediastinum</windowingMediastinum>
+		<windowingPelvis>Pelvis</windowingPelvis>
+		<windowingPosteriorFossa>Posterior Fossa</windowingPosteriorFossa>
+		<windowingInvert>Invert (I)</windowingInvert>
+		<msgImage>image</msgImage>
+		<msgNoLicense>No License Found</msgNoLicense>
+		<msgConnectionLost>Connection Lost!</msgConnectionLost>
+		<msgCantConnect>Can't Connect!</msgCantConnect>
+		<msgLicenseSupportOneCon>License supports only one {product} instance on Server</msgLicenseSupportOneCon>
+		<msgLicenseError>License Error</msgLicenseError>
+		<msgError>Error</msgError>
+		<msgInstallError>Installation Error</msgInstallError>
+		<msgXmlError>Error: settings.xml syntax incorrect</msgXmlError>
+		<msgMdVersionMismatch>{product} .swf file version incorrect</msgMdVersionMismatch>
+		<msgMdVersionOld>Please update your license to use newest version of software</msgMdVersionOld>
+		<msgMdLicenseOld>License is out of date</msgMdLicenseOld>
+		<msgMdManyUsers>Too Many Users Connected&#13;Please wait a few minutes and try again</msgMdManyUsers>
+		<msgMdLicenseBad>License not Valid</msgMdLicenseBad>
+		<msgNoReport>No Report</msgNoReport>
+		<transformDataProvider1>Rotate Right</transformDataProvider1>
+		<transformDataProvider2>Rotate Left</transformDataProvider2>
+		<transformDataProvider4>Flip Horizontal</transformDataProvider4>
+		<transformDataProvider5>Flip Vertical</transformDataProvider5>
+		<measureDataProvider1>Line</measureDataProvider1>
+		<measureDataProvider2>Show Angles</measureDataProvider2>
+		<measureDataProvider3>Angle</measureDataProvider3>
+		<measureDataProvider4>Polyline</measureDataProvider4>
+		<measureDataProvider5>Area</measureDataProvider5>
+		<measureDataProvider6>Volume</measureDataProvider6>
+		<measureDataProvider7>Calibration</measureDataProvider7>
+		<measureDataProvider8>Intensity</measureDataProvider8>
+		<measureDataProvider9>Delete All</measureDataProvider9>
+		<measureDataProvider10>Cobb Angle</measureDataProvider10>
+		<measureDataProvider11>Points</measureDataProvider11>
+		<measureDataProvider12>Save annotation</measureDataProvider12>
+		<measureDataProvider15>Norberg Angle</measureDataProvider15>
+		<measureDataProvider16>Text</measureDataProvider16>
+		<measureDataProviderECG1>Measurement (mV, s)</measureDataProviderECG1>
+		<measureDataProviderECG2>QT points (RR, QT, QTc)</measureDataProviderECG2>
+		<print>Print</print>
+		<printwithimages>Print with images</printwithimages>
+		<printSeries>Print series</printSeries>
+		<printDicom>DICOM Print</printDicom>
+		<chanelDefault>Default</chanelDefault>
+		<chanelRed>Red</chanelRed>
+		<chanelGreen>Green</chanelGreen>
+		<chanelBlue>Blue</chanelBlue>
+		<chanelRedGreen>Red, Green</chanelRedGreen>
+		<chanelRedBlue>Red,Blue</chanelRedBlue>
+		<chanelGreenBlue>Green, Blue</chanelGreenBlue>
+		<msgUpload>Upload</msgUpload>
+		<cbfilter>Remove/set filter 1</cbfilter>
+		<cbsmooth>Remove/set smooth</cbsmooth>
+		<mprwarning>Image slice can be incorrect, due to different images!</mprwarning>
+		<msginvalidframes>Invalid frame range!</msginvalidframes>
+		<msgclosestudies>Close Studies</msgclosestudies>
+		<btnReset.toolTip>Reset</btnReset.toolTip>
+		<savedpresentationstateerror>Error sending dicom, please see the log</savedpresentationstateerror>
+		<savedpresentationstate>Measurements saved to&#13;Presentation State DICOM (modality=PR)</savedpresentationstate>
+		<btnFilter.toolTip>Show or hide filtered ECG data</btnFilter.toolTip>
+		<btnoriginal.toolTip>Show or hide not filtered ECG data</btnoriginal.toolTip>
+		<btncompare.toolTip>Compare ECG data</btncompare.toolTip>
+		<cbscompare>Compare</cbscompare>
+		<msgnoecgdataselected>No ECG data selected</msgnoecgdataselected>
+		<btnbanpassfilter.toolTip>Add or remove 50/60 Hz filter</btnbanpassfilter.toolTip>
+		<btnsenddicomlibrary>Share</btnsenddicomlibrary>
+		<btnsenddicomlibrary.toolTip>Share files via Dicom Library</btnsenddicomlibrary.toolTip>
+	</Main>
+	<SaveImagesForm>
+		<group1>Format</group1>
+		<group2>Save Active</group2>
+		<rbSaveImage>Save Active Image/Video</rbSaveImage>
+		<rbSaveSeries>Save Active Series</rbSaveSeries>
+		<rbSaveStudy>Save Active Study</rbSaveStudy>
+		<msgCollecting>COLLECTING</msgCollecting>
+		<msgDownloading>DOWNLOADING</msgDownloading>
+		<msgDownloadCancel>DOWNLOAD CANCELLED</msgDownloadCancel>
+		<msgDownloadComplete>DOWNLOAD COMPLETE</msgDownloadComplete>
+		<title>SAVE</title>
+		<btnSave>Save</btnSave>
+	</SaveImagesForm>
+	<AboutForm>
+		<title>About</title>
+		<msgunlimited>Unlimited</msgunlimited>
+		<lblconnection>Concurrent connections:</lblconnection>
+		<msgconnections>Connected:</msgconnections>
+		<lbllicenseto>Licensed to:</lbllicenseto>
+		<lblvalidto>Valid to:</lblvalidto>
+		<lblupdateto>Updates to:</lblupdateto>
+		<lblversion>Version:</lblversion>
+		<lblcontacts>Contacts:</lblcontacts>
+		<lblmdc>Medical device class:</lblmdc>
+		<lblmodule>Modules:</lblmodule>
+		<btnOK>OK</btnOK>
+		<lblproduct>Product:</lblproduct>
+		<guiversion>GUI version:</guiversion>
+		<lblReleaseDate>Release Date:</lblReleaseDate>
+		<notified>ID of the notified body:</notified>
+		<msgoutofdate>(version is out of date)</msgoutofdate>
+		<msguptodate>(version is up to date)</msguptodate>
+		<msgusernewversion>For new version, please contact your system&#13;administrator</msgusernewversion>
+		<msgrootnewversion>Get the latest version from link{www.softneta.com}&#13;or if you want to know more about new&#13;versions, you can e-mail us:email{info@softneta.com}</msgrootnewversion>
+		<msglicenseistoold>Your license is too old for this update,&#13;contact email{info@softneta.com} for current&#13;prices.</msglicenseistoold>
+		<lblmanufactured>Manufactured by:</lblmanufactured>
+		<lblFda>FDA Cleared:</lblFda>
+		<lblFdatext>For diagnostic use K162011 (device class: 2)</lblFdatext>
+	</AboutForm>
+	<CustomWLForm>
+		<btnApply>Apply</btnApply>
+		<btnClose>Close</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Search</title>
+		<titleLimitedViewAccess>Search (Limited View Access)</titleLimitedViewAccess>
+		<btnSearch>Search</btnSearch>
+		<popLabelPatientID>Patient ID</popLabelPatientID>
+		<popSelectedPatientID>Patient ID:</popSelectedPatientID>
+		<popLabelPatientName>Patient Name</popLabelPatientName>
+		<popSelectedPatientName>Patient Name:</popSelectedPatientName>
+		<popLabelStudyID>Study ID</popLabelStudyID>
+		<popSelectedStudyID>Study ID:</popSelectedStudyID>
+		<popLabelAccession>Accession Number</popLabelAccession>
+		<popSelectedAccession>Accession Number:</popSelectedAccession>
+		<popLabelDescription>Description</popLabelDescription>
+		<popSelectedDescription>Description:</popSelectedDescription>
+		<popLabelReferringPhysician>Referring Physician</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Referring Physician:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Reading Physician</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Reading Physician:</popSelectedReadingPhysician>
+		<cbToDate>To:</cbToDate>
+		<cbFromDate>From:</cbFromDate>
+		<btnToday>Today</btnToday>
+		<btnYesterday>Yesterday</btnYesterday>
+		<btnModAll>All</btnModAll>
+		<btnModNone>None</btnModNone>
+		<btnOpen>Open</btnOpen>
+		<btnCancel>Cancel</btnCancel>
+		<listPatientID>Patient ID</listPatientID>
+		<listPatientName>Name</listPatientName>
+		<listPatientBirthdate>Birthdate</listPatientBirthdate>
+		<listStudyID>Study ID</listStudyID>
+		<listAccession>Accession Number</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Description</listDescription>
+		<listDate>Date</listDate>
+		<listTime>Time</listTime>
+		<listDateTime>Time</listDateTime>
+		<listReviewed>Reviewed</listReviewed>
+		<listReferringPhysician>Referring Physician</listReferringPhysician>
+		<listReadingPhysician>Reading Physician</listReadingPhysician>
+		<listSourceAE>Source AE</listSourceAE>
+		<listReceivedOn>Received On</listReceivedOn>
+		<dayNames>S,M,T,W,T,F,S</dayNames>
+		<monthNames>January,February,March,April,May,June,July,August,September,October,November,December</monthNames>
+		<firstDayOfWeek>0</firstDayOfWeek>
+		<btnForwardStudy>Forward</btnForwardStudy>
+		<btnExportStudy>Export</btnExportStudy>
+		<cbAddStudy>Add</cbAddStudy>
+		<lblInfo>Too many items found!</lblInfo>
+		<msgInfoNoItems>No items Found!</msgInfoNoItems>
+	</SearchForm>
+	<medreport>
+		<pnlTemplates>TEMPLATES</pnlTemplates>
+		<btnInsertTemplate>Insert &gt;&gt;</btnInsertTemplate>
+		<btnNewTemplate>New</btnNewTemplate>
+		<btnEditTemplate>Edit</btnEditTemplate>
+		<btnDeleteTemplate>Delete</btnDeleteTemplate>
+		<pnlReport>REPORT</pnlReport>
+		<lblStudyTime>Study Time:</lblStudyTime>
+		<lblReportTime>Report Time:</lblReportTime>
+		<btnEdit>Edit</btnEdit>
+		<btnSave>Save</btnSave>
+		<btnPrint>Print</btnPrint>
+		<btnAddTemplate>&lt;&lt; Add Template</btnAddTemplate>
+		<lblStudyIDValue>Study ID:</lblStudyIDValue>
+		<lblPatientIDValue>Patient ID:</lblPatientIDValue>
+		<lblPatientNameValue>Patient Name</lblPatientNameValue>
+		<lblPatientBirthDateValue>Birthdate:</lblPatientBirthDateValue>
+		<lblStudyPhysicianValue>Physician:</lblStudyPhysicianValue>
+		<lblPatientHistoryValue>History:</lblPatientHistoryValue>
+		<msgDeleteTemplate>Template will be deleted. Do you really want to delete the Template?</msgDeleteTemplate>
+		<msgReplaceReport>Report will be replaced with the Selected Template. Do you really want to replace the Report?</msgReplaceReport>
+		<yesAlertLabel>Yes</yesAlertLabel>
+		<noAlertLabel>No</noAlertLabel>
+		<btnUpload.toolTip>Upload</btnUpload.toolTip>
+		<btnDownload.toolTip>Download</btnDownload.toolTip>
+		<btnDelete.toolTip>Delete</btnDelete.toolTip>
+		<msgDelete>Delete "{item}"?</msgDelete>
+	</medreport>
+	<TemplateForm>
+		<title>Template</title>
+		<lblGroupName>Template Group:</lblGroupName>
+		<lblName>Template Name:</lblName>
+		<selectGroup>Select Group</selectGroup>
+		<btnOk>Save</btnOk>
+		<btnCancel>Cancel</btnCancel>
+		<TemplateNameError>Template name cannot be empty</TemplateNameError>
+	</TemplateForm>
+	<ReportForm>
+		<title>Report</title>
+		<lblStudyDateTime>Study Time:</lblStudyDateTime>
+		<lblStudyID>Study ID:</lblStudyID>
+		<lblReportDateTime>Report Time:</lblReportDateTime>
+		<lblPatientID>Patient ID:</lblPatientID>
+		<lblPatientName>Patient Name:</lblPatientName>
+		<btnClose>Close</btnClose>
+	</ReportForm>
+	<HeaderButtons>
+		<msgNoteButtonWrite>Write report</msgNoteButtonWrite>
+		<msgNoteButtonEdit>Edit report</msgNoteButtonEdit>
+		<msgNoteButtonView>View report</msgNoteButtonView>
+		<msgPatient>Patient</msgPatient>
+		<btnStudyRefresh>Study was updated - refresh</btnStudyRefresh>
+	</HeaderButtons>
+	<ForwardForm>
+		<title>Forward</title>
+		<lblPatientID>Patient ID</lblPatientID>
+		<lblPatientName>Patient Name</lblPatientName>
+		<lblStudyDate>Study Date</lblStudyDate>
+		<lblStudyTime>Study Time</lblStudyTime>
+		<lblStudyDescription>Study Description</lblStudyDescription>
+		<btnForwardTo>Forward To</btnForwardTo>
+		<btnClose>Close</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Export</title>
+		<lblPatientID>Patient ID</lblPatientID>
+		<lblPatientName>Patient Name</lblPatientName>
+		<lblStudyDate>Study Date</lblStudyDate>
+		<lblStudyTime>Study Time</lblStudyTime>
+		<lblStudyDescription>Study Description</lblStudyDescription>
+		<btnExport>Export</btnExport>
+		<listName>Volumes</listName>
+		<listISO>ISO Image</listISO>
+		<listBurn>Burn</listBurn>
+		<btnDownloadISO>Download ISO</btnDownloadISO>
+		<btnBurnNow>Burn Now</btnBurnNow>
+		<btnClose>Close</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Settings</title>
+		<cntDicomView>DICOM View</cntDicomView>
+		<cbAutoStartMultiFrame>AutoStart Multi-Frame Images</cbAutoStartMultiFrame>
+		<cntScreenLayout>Screen Layout</cntScreenLayout>
+		<lblScreenLayoutRows>Rows:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Columns:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Top Toolbar Width:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Thumbnails Position:</lblThumbnailsPosition>
+		<lblThumbnailsLeftSize>Thumbnails Vertical bar&#13; series size:</lblThumbnailsLeftSize>
+		<lblThumbnailsBottomSize>Thumbnails Horizontal bar&#13; series size:</lblThumbnailsBottomSize>
+		<btnThumbnailsLeft.toolTip>Left</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Bottom</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Info Labels</cntInfoLabels>
+		<lblLeftSideInformation>Left Side Information</lblLeftSideInformation>
+		<lblRightSideInformation>Right Side Information</lblRightSideInformation>
+		<lblInfolabelsSize>Font size (13 by default) when&#13;image size is more than:</lblInfolabelsSize>
+		<vbxStyle>Style</vbxStyle>
+		<btnOK>OK</btnOK>
+		<btnCancel>Cancel</btnCancel>
+		<lblAutoOpenFirstImage>AutoOpen First Image:</lblAutoOpenFirstImage>
+		<rbAutoOpenNo>No</rbAutoOpenNo>
+		<rbAutoOpenSingle>Single</rbAutoOpenSingle>
+		<rbAutoOpenAlways>Always</rbAutoOpenAlways>
+		<cbStreaming>DICOM Flow (preload all study images sequentially)</cbStreaming>
+		<lblThumbnailsSize>Thumbnails Size:</lblThumbnailsSize>
+		<lblThumbnailsSingleClick>Thumbnails Single-Click:</lblThumbnailsSingleClick>
+		<btnThumbnailsSingleClick.toolTip>Thumbnails Mouse Single-Click</btnThumbnailsSingleClick.toolTip>
+		<lblReports>Reports:</lblReports>
+		<lblScreenLayoutScale>Scale:</lblScreenLayoutScale>
+		<lblurl>Report URL:</lblurl>
+		<lblReportPosition>Reports position:</lblReportPosition>
+		<btnReportsMax.toolTip>Reports full size</btnReportsMax.toolTip>
+		<btnReportsLeft.toolTip>Reports left side</btnReportsLeft.toolTip>
+		<btnReportsCenter.toolTip>Reports center</btnReportsCenter.toolTip>
+		<btnReportsRight.toolTip>Reports right side</btnReportsRight.toolTip>
+		<lblReportPopup>Reports in PopUp:</lblReportPopup>
+		<btnReportsPopup.toolTip>Reports in different window</btnReportsPopup.toolTip>
+		<lblStyle>Style template:</lblStyle>
+		<btnDeleteStyles>Delete</btnDeleteStyles>
+		<lblStyleName>Style name:</lblStyleName>
+		<btnStylesUpdate>Rename</btnStylesUpdate>
+		<lblcolor1>Buttons:</lblcolor1>
+		<cpBut1.toolTip>Button top color</cpBut1.toolTip>
+		<cpBut2.toolTip>Button bottom color</cpBut2.toolTip>
+		<cpButTheme.toolTip>Button theme color</cpButTheme.toolTip>
+		<cpButText.toolTip>Button text color</cpButText.toolTip>
+		<lblcolor2>Selected buttons:</lblcolor2>
+		<cpButSelec1.toolTip>Selected button top color</cpButSelec1.toolTip>
+		<cpButSelec2.toolTip>Selected button bottom color</cpButSelec2.toolTip>
+		<cpButThemeSelec.toolTip>Selected button theme color</cpButThemeSelec.toolTip>
+		<cpButTextSelec.toolTip>Selected button text color</cpButTextSelec.toolTip>
+		<lblcolor3>Backgrounds:</lblcolor3>
+		<cpMainBg.toolTip>Window background color</cpMainBg.toolTip>
+		<cpContentbg.toolTip>Window inner background color</cpContentbg.toolTip>
+		<cpBorderBg.toolTip>Window border color</cpBorderBg.toolTip>
+		<lblcolor4>Labels:</lblcolor4>
+		<cpLabel.toolTip>Label text color</cpLabel.toolTip>
+		<lblcolor5>Inputs:</lblcolor5>
+		<cpInput.toolTip>Input text color</cpInput.toolTip>
+		<cpInputBg.toolTip>Input background color</cpInputBg.toolTip>
+		<lblcolor6>Menu:</lblcolor6>
+		<cpMenuText.toolTip>Menu text color</cpMenuText.toolTip>
+		<cpMenuBorder.toolTip>Menu border color</cpMenuBorder.toolTip>
+		<cpMenuTheme.toolTip>Menu theme color</cpMenuTheme.toolTip>
+		<cpMenuBg.toolTip>Menu background color</cpMenuBg.toolTip>
+		<lblcolor7>Data grids:</lblcolor7>
+		<cpGrid1.toolTip>Data Grid line color</cpGrid1.toolTip>
+		<cpGrid2.toolTip>Data Grid second line color</cpGrid2.toolTip>
+		<cpGridselect.toolTip>Data Grid selected line color</cpGridselect.toolTip>
+		<cpGridRol.toolTip>Data Grid mouse over line color</cpGridRol.toolTip>
+		<cpGridText.toolTip>Data Grid text color</cpGridText.toolTip>
+		<cpGridTextSelecr.toolTip>Data Grid selected text color</cpGridTextSelecr.toolTip>
+		<cpGridBorder.toolTip>Data Grid border color</cpGridBorder.toolTip>
+		<lblcolor8>Image Labels:</lblcolor8>
+		<cpImage.toolTip>Text color for thumbnail labels, opened image labels</cpImage.toolTip>
+		<msgStyleExsist>Style name "{style}" already exists</msgStyleExsist>
+		<vbxToolbar>Toolbar</vbxToolbar>
+		<lblList1>Show:</lblList1>
+		<lblList2>Hide:</lblList2>
+		<btnHide.toolTip>Hide</btnHide.toolTip>
+		<btnShow.toolTip>Show</btnShow.toolTip>
+		<btnHideAll.toolTip>Hide Toolbar</btnHideAll.toolTip>
+		<btnlocalclear>Clear local settings</btnlocalclear>
+		<btnlocal>Update local settings</btnlocal>
+		<msgRestart>Changes will come into effect&#13;after the next login</msgRestart>
+		<vbxSearchGrid>Search</vbxSearchGrid>
+		<lblMultiScreenMode>Multiple monitor mode:</lblMultiScreenMode>
+		<btnMultiScreenMode.toolTip>Enable/disable multiple monitor support</btnMultiScreenMode.toolTip>
+		<lblautologout>Auto logout after:</lblautologout>
+		<labDefaultviewer>Default viewer:</labDefaultviewer>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Copy image link (JPEG)</cmiImageLinkJPEG>
+		<cmiSaveImages>Save Images...</cmiSaveImages>
+		<cmiCineMode>Cine mode</cmiCineMode>
+	</DicomViewContextMenu>
+	<RegisterForm>
+		<msgInvalidSerial>Invalid serial!</msgInvalidSerial>
+		<organizationLabel>Organization:</organizationLabel>
+		<serialLabel>Serial:</serialLabel>
+		<reloginlabel>License will apply from the next login</reloginlabel>
+		<msgInvalidLicense>Invalid license data.&#13;Please delete license file, restart client and try to register again</msgInvalidLicense>
+		<btnRegister>Register</btnRegister>
+		<msgAllFieldMustBeFilled>All fields must be filled in</msgAllFieldMustBeFilled>
+		<btnBuy>BUY NOW!</btnBuy>
+	</RegisterForm>
+	<Common>
+		<msgNoDataYes>YES</msgNoDataYes>
+		<msgNoDataNo>NO</msgNoDataNo>
+		<msgNoDataClose>Close</msgNoDataClose>
+		<btnOK>OK</btnOK>
+		<btnClose>Close</btnClose>
+		<btnCancel>Cancel</btnCancel>
+		<btnDelete>Delete</btnDelete>
+		<msgWait>Please wait</msgWait>
+	</Common>
+	<PrintPage>
+		<title>Print setup</title>
+		<toolTips>Page layout</toolTips>
+		<btnOK>OK</btnOK>
+		<btnCancel>Cancel</btnCancel>
+	</PrintPage>
+	<PluginView>
+		<btnRender>Render</btnRender>
+		<btnChange.toolTip>Change view</btnChange.toolTip>
+		<btnClose>Close</btnClose>
+		<box1>Original</box1>
+		<box2>Rendered</box2>
+	</PluginView>
+	<Upload>
+		<msgUploadProgress>Uploaded</msgUploadProgress>
+	</Upload>
+	<export>
+		<Unlimited>Unlimited (a single volume)</Unlimited>
+	</export>
+	<annotation>
+		<SaveAnnotationModal>SAVE ANNOTATION</SaveAnnotationModal>
+		<Title>Title</Title>
+		<Required>Required</Required>
+		<msgRequiredFileds>Required:{fields}</msgRequiredFileds>
+		<Description>Description</Description>
+		<StoringType>Storing type</StoringType>
+		<Save>Save</Save>
+		<Error_1>You can't create annotation, because you are using not original instance data.</Error_1>
+	</annotation>
+	<DicomLibrary>
+		<title>SHARE FILES VIA DICOM LIBRARY</title>
+		<lbemailto>Email to</lbemailto>
+		<lbemailfrom>Email from</lbemailfrom>
+		<lbmessage>Message</lbmessage>
+		<btnsend>Send</btnsend>
+		<msgemialfrom>Will receive email with view and management link to Dicom Library</msgemialfrom>
+		<msgemialto>Will receive email with view link to Dicom Library</msgemialto>
+		<msginvalidemail>Invalid email</msginvalidemail>
+		<lblDrop>Drag and drop images here</lblDrop>
+		<lblSubject>Subject</lblSubject>
+		<cbNotRobot>I'm not a robot</cbNotRobot>
+		<lblWarning>Use sensitive data at your own risk</lblWarning>
+		<msgRequestInLine>The request was accepted and is waiting for its turn</msgRequestInLine>
+		<msgNoImage>No image selected</msgNoImage>
+	</DicomLibrary>
+	<settings>
+		<logOutTimer>Auto logout after:</logOutTimer>
+	</settings>
+	<branding>
+		<errorValidateBranding>Error: Branding file rebranding/rebranding_configuration.json is not valid</errorValidateBranding>
+	</branding>
+</languages>

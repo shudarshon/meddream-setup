@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title data-i18n="reports.Report">Reports</title><link rel="stylesheet" href="lib/css/bootstrap.min.css"><link rel="stylesheet" href="css/md.reports.5.5.2.css"><script src="lib/js/url-search-params.js"></script></head><body><div class="container-fluid"><div class="row md-report-row"><div class="templateControlToggler md-report-patient-info cursor-pointer" onclick="toggleReportTemplates()"><div id="templateToggleIcon" class="templateToggleIcon glyphicon glyphicon-menu-right" aria-hidden="true"></div><div class="vertical-text" data-i18n="reports.Templates">Templates</div></div><div id="reportTemplatesContainer" class="hidden md-report-templates"><div class="container-fluid"><div class="row"><div class="col-md-12"><h5 data-i18n="reports.Templates">Templates</h5></div></div><div class="row"><div class="col-md-12"><report-templates></report-templates></div></div></div></div><div id="reportDataContainer" class="md-report-note-94"><div class="container-fluid"><div class="row"><div class="col-md-12"><report></report></div></div></div></div></div></div><modal-message-register></modal-message-register><script src="lib/js/jquery-2.1.1.min.js"></script><script>window.Promise || document.write('<script src="lib/js/es6-promise.auto.min.js"><\/script>');
+    function toggleReportTemplates() {
+        document.getElementById('reportTemplatesContainer').classList.toggle('hidden');
+        document.getElementById('templateToggleIcon').classList.toggle('glyphicon-menu-left');
+        document.getElementById('templateToggleIcon').classList.toggle('glyphicon-menu-right');
+
+        if (document.getElementById('reportDataContainer').classList.contains("md-report-note-94")) {
+            document.getElementById('reportDataContainer').classList.remove("md-report-note-94");
+            document.getElementById('reportDataContainer').classList.add("md-report-note-67");
+        } else {
+            document.getElementById('reportDataContainer').classList.remove("md-report-note-67");
+            document.getElementById('reportDataContainer').classList.add("md-report-note-94");
+        }
+    }</script><script src="lib/js/bootstrap.min.js"></script><script src="../assets/js/i18next.min.js"></script><script src="../assets/js/i18nextXHRBackend.min.js"></script><script src="../assets/js/i18nextBrowserLanguageDetector.min.js"></script><script src="../assets/js/jquery-i18next.min.js"></script><script src="lib/js/riot.min.js"></script><script src="lib/js/ckeditor/ckeditor.js"></script><script src="js/md.reports.min.5.5.2.js"></script></body></html>

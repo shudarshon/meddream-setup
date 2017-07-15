@@ -1,0 +1,11 @@
+{
+    "isRebranded": false,
+    "productName": "MedDream",
+    "productVersion": "1.1.1",
+    "copyright": "Copyright 2016 © Softneta",
+    "companyLogoFile": "companylogo.jpg",
+    "productLogoFile": "productlogo.jpg",
+    "loginLogoFile": "loginlogo.jpg",
+    "contacts":"company\naddress\ncountry\ncompany\naddress\ncountry\nemail{test@test.com}\nlink{www.web.com}",
+    "disclaimerText": ""
+}

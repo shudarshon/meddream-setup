@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>SE</language>
+	<Main>
+		<btnLanguage>SE</btnLanguage>
+		<helpURL>locales/en/help.pdf</helpURL>
+		<btnSearch>Sök</btnSearch>
+		<btnLogoff>Logga ut</btnLogoff>
+	</Main>
+	<CustomWLForm>
+		<btnApply>Verkställ</btnApply>
+		<btnClose>Stäng</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Sök</title>
+		<titleLimitedViewAccess>Sök (begränsad syn Access)</titleLimitedViewAccess>
+		<btnSearch>Sök</btnSearch>
+		<popLabelPatientID>Patientens ID</popLabelPatientID>
+		<popSelectedPatientID>Patientens ID:</popSelectedPatientID>
+		<popLabelPatientName>Patientens namn</popLabelPatientName>
+		<popSelectedPatientName>Patientens namn:</popSelectedPatientName>
+		<popLabelStudyID>Studie ID</popLabelStudyID>
+		<popSelectedStudyID>Studie ID:</popSelectedStudyID>
+		<popLabelAccession>Accession Number</popLabelAccession>
+		<popSelectedAccession>Accession Number:</popSelectedAccession>
+		<popLabelDescription>Beskrivning</popLabelDescription>
+		<popSelectedDescription>Beskrivning:</popSelectedDescription>
+		<popLabelReferringPhysician>Hänvisning Physician</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Hänvisning Physician:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Reading Physician</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Reading Physician:</popSelectedReadingPhysician>
+		<cbToDate>Till:</cbToDate>
+		<cbFromDate>Från:</cbFromDate>
+		<btnToday>Idag</btnToday>
+		<btnYesterday>Igår</btnYesterday>
+		<btnModAll>Alla</btnModAll>
+		<btnModNone>Ingen</btnModNone>
+		<btnOpen>Öppen</btnOpen>
+		<btnCancel>Avbryt</btnCancel>
+		<listPatientID>Patientens ID</listPatientID>
+		<listPatientName>Namn</listPatientName>
+		<listPatientBirthdate>Birt datum</listPatientBirthdate>
+		<listStudyID>Studie ID</listStudyID>
+		<listAccession>Accession Number</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Beskrivning</listDescription>
+		<listDate>Datum</listDate>
+		<listTime>Tid</listTime>
+		<listDateTime>Tid</listDateTime>
+		<listReviewed>Återgiven</listReviewed>
+		<listReferringPhysician>Hänvisning Physician</listReferringPhysician>
+		<listReadingPhysician>Reading Physician</listReadingPhysician>
+		<listSourceAE>Source AE</listSourceAE>
+		<listReceivedOn>Inkom den</listReceivedOn>
+		<dayNames>S,M,T,O,T,F,L</dayNames>
+		<monthNames>Januari,Februari,Mars,April,Maj,Juni,Juli,Augusti,September,Oktober,November,December</monthNames>
+		<firstDayOfWeek>0</firstDayOfWeek>
+		<btnForwardStudy>Framåt</btnForwardStudy>
+		<btnExportStudy>Export</btnExportStudy>
+		<cbAddStudy>Lägg till</cbAddStudy>
+	</SearchForm>
+	<ReportForm>
+		<title>Rapport</title>
+		<lblStudyDateTime>Studie Tid:</lblStudyDateTime>
+		<lblStudyID>Studie ID:</lblStudyID>
+		<lblReportDateTime>Rapportera Tid:</lblReportDateTime>
+		<lblPatientID>Patientens ID:</lblPatientID>
+		<lblPatientName>Patientens namn:</lblPatientName>
+		<btnClose>Stäng</btnClose>
+	</ReportForm>
+	<ForwardForm>
+		<title>Framåt</title>
+		<lblPatientID>Patientens ID</lblPatientID>
+		<lblPatientName>Patientens namn</lblPatientName>
+		<lblStudyDate>Studie datum</lblStudyDate>
+		<lblStudyTime>Studie tid</lblStudyTime>
+		<lblStudyDescription>Studie Beskrivning</lblStudyDescription>
+		<btnForwardTo>Vidarebefordra till</btnForwardTo>
+		<btnClose>Nära</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Export</title>
+		<lblPatientID>Patientens ID</lblPatientID>
+		<lblPatientName>Patientens namn</lblPatientName>
+		<lblStudyDate>Studie datum</lblStudyDate>
+		<lblStudyTime>Studie tid</lblStudyTime>
+		<lblStudyDescription>Studie Beskrivning</lblStudyDescription>
+		<btnExport>Export</btnExport>
+		<listName>Volumes</listName>
+		<listISO>ISO Image</listISO>
+		<listBurn>Burn</listBurn>
+		<btnDownloadISO>Download ISO</btnDownloadISO>
+		<btnBurnNow>Burn Now</btnBurnNow>
+		<btnClose>Nära</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Settings</title>
+		<cntDicomView>DICOM View</cntDicomView>
+		<cbAutoStartMultiFrame>AutoStart Multi-Frame Images</cbAutoStartMultiFrame>
+		<cntScreenLayout>Screen Layout</cntScreenLayout>
+		<lblScreenLayoutRows>Rows:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Columns:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Top Toolbar Width:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Thumbnails Position:</lblThumbnailsPosition>
+		<btnThumbnailsLeft.toolTip>Left</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Bottom</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Info Labels</cntInfoLabels>
+		<lblLeftSideInformation>Left Side Information</lblLeftSideInformation>
+		<lblRightSideInformation>Right Side Information</lblRightSideInformation>
+		<btnOK>OK</btnOK>
+		<btnCancel>Cancel</btnCancel>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Copy image link (JPEG)</cmiImageLinkJPEG>
+		<cmiSaveImages>Save Images...</cmiSaveImages>
+	</DicomViewContextMenu>
+</languages>

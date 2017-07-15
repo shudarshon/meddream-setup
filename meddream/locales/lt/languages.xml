@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>LT</language>
+	<login>
+		<errorUsernamePassword>Klaida: Patikrinkite savo vartotojo vardą ir slaptažodį arba susiekite su sistemos administratorium</errorUsernamePassword>
+		<errorObjNotFound1>objektas</errorObjNotFound1>
+		<errorObjNotFound2>nerastas</errorObjNotFound2>
+		<errorObjNotFound3>Mėginkite rasti jį rankiniu būdu po prisijungimo</errorObjNotFound3>
+		<errorValidateConnect>Klaida: Nepavyko prisijungti prie duomenų bazės HIS nuorodos patikrinimui.&#13;&#13;Prašome susisiekti su sistemos administratoriumi</errorValidateConnect>
+		<errorValidateQuery>Klaida: HIS nuorodos patvirtinimo užklausa nepavyko.&#13;&#13;Prašome susisiekti su sistemos administratoriumi</errorValidateQuery>
+		<errorTooManyFailures>Klaida: per daug nesėkmingų prisijungimų, bandykite po {n} min</errorTooManyFailures>
+		<missingExt>Klaida: PHP biblioteka "{n}" neįdiegta</missingExt>
+		<missingExtMeddream>Klaida: php_meddream.dll neįdiegtas</missingExtMeddream>
+		<testWriteable>Klaida: MedDream katalogas yra neįrašomas (kodas: {r})</testWriteable>
+		<testWriteableTemp>Klaida: pakatalogis 'temp' yra neįrašomas (kodas: {r})</testWriteableTemp>
+		<testWriteableLog>Klaida: pakatalogis 'log' yra neįrašomas (kodas: {r})</testWriteableLog>
+		<isTimezoneError>Klaida: php.ini nenurodytas parametras date.timezone</isTimezoneError>
+		<oldPhpVersion>Klaida: MedDream reikalauja PHP 5.3.0 arba naujesnės (dabartinė PHP {v})</oldPhpVersion>
+		<unsupportedCgi>Klaida: PHP integruotas į Web serverį per "{s}" SAPI. Šis režimas nepalaikomas.</unsupportedCgi>
+	</login>
+	<Main>
+		<btnLanguage>LT</btnLanguage>
+		<helpURL>locales/lt/help.pdf</helpURL>
+		<btnSearch>Paieška</btnSearch>
+		<btnLogoff>Atsijungti</btnLogoff>
+		<btnPlugin>Įskiepiai</btnPlugin>
+		<btnChanels>Kanalai</btnChanels>
+		<btnMove>Ranka</btnMove>
+		<btnZoom>Didinti/Mažinti</btnZoom>
+		<btnMeasure>Matavimai</btnMeasure>
+		<btnMagnifinder>Lupa</btnMagnifinder>
+		<btnZoomAll>Sutalpinti</btnZoomAll>
+		<btnZoom11>1:1</btnZoom11>
+		<btnTransform>Transformuoti</btnTransform>
+		<btnLockScroll>Užrakinti</btnLockScroll>
+		<btnReferenceLines>Pjūviai</btnReferenceLines>
+		<btnScroll>Slinkti</btnScroll>
+		<btnMultiImage11>1x1</btnMultiImage11>
+		<btnMultiImage22>2x2</btnMultiImage22>
+		<btnScreenLayout11>1x1</btnScreenLayout11>
+		<btnScreenLayout12>1x2</btnScreenLayout12>
+		<btnScreenLayout22>2x2</btnScreenLayout22>
+		<btnScreenLayout>Išdėstymas</btnScreenLayout>
+		<btnThumbnailsPosition>Miniatiūros</btnThumbnailsPosition>
+		<btnPrint>Spausdinti</btnPrint>
+		<btnForward>Persiųsti</btnForward>
+		<btnBurn>Įrašyti</btnBurn>
+		<btnDownload>Parsisiųsti</btnDownload>
+		<btnReset>Išvalyti</btnReset>
+		<btnAnnotation>i</btnAnnotation>
+		<btnmpr>MPR</btnmpr>
+		<btnCine>Peržiūra</btnCine>
+		<btnFilter>Filtras 1</btnFilter>
+		<btnoriginal>Originalas</btnoriginal>
+		<btncompare>Palyginti EKG</btncompare>
+		<btnbanpassfilter>50 Hz</btnbanpassfilter>
+		<btnSettings>Nustatymai</btnSettings>
+		<btnInfo>Apie</btnInfo>
+		<btnHelp>Pagalba</btnHelp>
+		<btnFullScreen>Išdidinti</btnFullScreen>
+		<btnClose>Uždaryti</btnClose>
+		<btnWL>Šviesumo lygis</btnWL>
+		<btnWL.toolTip>Šviesumo lygis (W)</btnWL.toolTip>
+		<btnMove.toolTip>Ranka (H)</btnMove.toolTip>
+		<btnZoom.toolTip>Didinti/Mažinti (+/-)</btnZoom.toolTip>
+		<btnMeasure.toolTip>Matavimai</btnMeasure.toolTip>
+		<btnMagnifinder.toolTip>Lupa (M)</btnMagnifinder.toolTip>
+		<btnZoomAll.toolTip>Talpinti ekrane (2)</btnZoomAll.toolTip>
+		<btnZoom11.toolTip>1:1 Dydis (1)</btnZoom11.toolTip>
+		<btnTransform.toolTip>Paversti</btnTransform.toolTip>
+		<btnLockScroll.toolTip>Slinkties užrakinimas</btnLockScroll.toolTip>
+		<btnScroll.toolTip>Įgalinti slinkimą</btnScroll.toolTip>
+		<btnReferenceLines.toolTip>Atskaitos linijos</btnReferenceLines.toolTip>
+		<btnNotes.toolTip>Aprašymas</btnNotes.toolTip>
+		<btnMultiImage11.toolTip>1x1 nuotraukų grupė</btnMultiImage11.toolTip>
+		<btnMultiImage22.toolTip>2x2 nuotraukų grupė</btnMultiImage22.toolTip>
+		<btnScreenLayout11.toolTip>1x1 vaizdo išdėstymas</btnScreenLayout11.toolTip>
+		<btnScreenLayout12.toolTip>1x2 vaizdo išdėstymas</btnScreenLayout12.toolTip>
+		<btnScreenLayout22.toolTip>2x2 vaizdo išdėstymas</btnScreenLayout22.toolTip>
+		<btnScreenLayout.toolTip>Vaizdo išdėstymas</btnScreenLayout.toolTip>
+		<btnThumbnailsPosition.toolTip>Miniatiūrų išdėstymas kairėje/apačioje</btnThumbnailsPosition.toolTip>
+		<btnForward.toolTip>Persiųsti</btnForward.toolTip>
+		<btnBurn.toolTip>Įrašyti</btnBurn.toolTip>
+		<btnPrint.toolTip>Spausdinti</btnPrint.toolTip>
+		<btnReports.toolTip>Aprašymas</btnReports.toolTip>
+		<btnSettings.toolTip>Nustatymai</btnSettings.toolTip>
+		<btnInfo.toolTip>Apie</btnInfo.toolTip>
+		<btnHelp.toolTip>Pagalba (F1)</btnHelp.toolTip>
+		<btnFullScreen.toolTip>Išdidinti per visą ekraną</btnFullScreen.toolTip>
+		<btnPlugin.toolTip>Įskiepiai</btnPlugin.toolTip>
+		<btnChanels.toolTip>RGB kanalai</btnChanels.toolTip>
+		<btnCine.toolTip>Peržiūros režimas</btnCine.toolTip>
+		<btntags.toolTip>Rodyti DICOM failo metaduomenis</btntags.toolTip>
+		<windowingDefault>Pagal nutylejimą</windowingDefault>
+		<windowingAuto>Automatinis</windowingAuto>
+		<windowingAbdomen>Pilvas</windowingAbdomen>
+		<windowingBone>Kaulas</windowingBone>
+		<windowingCerebrum>Smegenys</windowingCerebrum>
+		<windowingLiver>Kepenys</windowingLiver>
+		<windowingLung>Plaučiai</windowingLung>
+		<windowingMediastinum>Tarpuplautis</windowingMediastinum>
+		<windowingPelvis>Dubuo</windowingPelvis>
+		<windowingPosteriorFossa>Užpakalinė kaukolės duobė</windowingPosteriorFossa>
+		<windowingInvert>Invertuoti (I)</windowingInvert>
+		<msgImage>nuotrauka</msgImage>
+		<msgNoLicense>Licencija nerasta</msgNoLicense>
+		<msgConnectionLost>Nutrauktas ryšys!</msgConnectionLost>
+		<msgCantConnect>Negalima prisijungti!</msgCantConnect>
+		<msgLicenseSupportOneCon>Turima {product} licencija palaiko tik vieną atidarytą programą</msgLicenseSupportOneCon>
+		<msgLicenseError>Licencijos klaida</msgLicenseError>
+		<msgError>Klaida</msgError>
+		<msgInstallError>Diegimo klaida</msgInstallError>
+		<msgXmlError>Klaida: settings.xml failo sintaksės klaida</msgXmlError>
+		<msgMdVersionMismatch>Neatitinka {product} .swf failo versija</msgMdVersionMismatch>
+		<msgMdVersionOld>Norint naudoti naują versiją, atnaujinkite licenciją</msgMdVersionOld>
+		<msgMdLicenseOld>Baigėsi licencijos galiojimo laikas</msgMdLicenseOld>
+		<msgMdManyUsers>Pasiektas prisijungimų limitas&#13;Palaukite kelias minutes ir bandykite dar kartą</msgMdManyUsers>
+		<msgMdLicenseBad>Netinkama licencija</msgMdLicenseBad>
+		<msgNoReport>Nėra aprašymo</msgNoReport>
+		<transformDataProvider1>Pasukti į dešinę</transformDataProvider1>
+		<transformDataProvider2>Pasukti į kairę</transformDataProvider2>
+		<transformDataProvider4>Apversti horizontaliai</transformDataProvider4>
+		<transformDataProvider5>Apversti vertikaliai</transformDataProvider5>
+		<measureDataProvider1>Linija</measureDataProvider1>
+		<measureDataProvider2>Rodyti susikirtimų kampus</measureDataProvider2>
+		<measureDataProvider3>Kampas</measureDataProvider3>
+		<measureDataProvider4>Daugialinijinis</measureDataProvider4>
+		<measureDataProvider5>Plotas</measureDataProvider5>
+		<measureDataProvider6>Talpa</measureDataProvider6>
+		<measureDataProvider7>Kalibravimas</measureDataProvider7>
+		<measureDataProvider8>Intensyvumas</measureDataProvider8>
+		<measureDataProvider9>Valyti matavimus</measureDataProvider9>
+		<measureDataProvider10>Cobb'o kampas</measureDataProvider10>
+		<measureDataProvider11>Taškai</measureDataProvider11>
+		<measureDataProvider12>Išsaugoti anotaciją</measureDataProvider12>
+		<measureDataProvider15>Norberg'o kampas</measureDataProvider15>
+		<measureDataProvider16>Tekstas</measureDataProvider16>
+		<measureDataProviderECG1>Matavimas (mV, s)</measureDataProviderECG1>
+		<measureDataProviderECG2>QT taškai (RR, QT, QTc)</measureDataProviderECG2>
+		<print>Spausdinti</print>
+		<printwithimages>Spausdinti su nuotraukomis</printwithimages>
+		<printSeries>Spausdinti seriją</printSeries>
+		<printDicom>Spausdinti DICOM</printDicom>
+		<chanelDefault>Numatytasis</chanelDefault>
+		<chanelRed>Raudonas</chanelRed>
+		<chanelGreen>Žalias</chanelGreen>
+		<chanelBlue>Mėlynas</chanelBlue>
+		<chanelRedGreen>Raudonas, žalias</chanelRedGreen>
+		<chanelRedBlue>Raudonas, mėlynas</chanelRedBlue>
+		<chanelGreenBlue>Žalias, mėlynas</chanelGreenBlue>
+		<msgUpload>Įkelti</msgUpload>
+		<cbfilter>Pašalinti/uždėti filtrą 1</cbfilter>
+		<cbsmooth>Pašalinti/uždėti glotnumą</cbsmooth>
+		<mprwarning>Pjūvis gali būti neteisingas dėl nuotraukų skirtumų!</mprwarning>
+		<msginvalidframes>Blogai parinkti vaizdai!</msginvalidframes>
+		<msgclosestudies>Uždaryti tyrimus</msgclosestudies>
+		<btnReset.toolTip>Nustatyti iš naujo</btnReset.toolTip>
+		<savedpresentationstateerror>Siuntimo klaida, prašome žiūrėti įvykių žurnalą</savedpresentationstateerror>
+		<savedpresentationstate>Matavimai išsaugoti į&#13;Presentation State DICOM (modality=PR)</savedpresentationstate>
+		<btnFilter.toolTip>Rodyti ar slėpti filtruotus EKG duomenis</btnFilter.toolTip>
+		<btnoriginal.toolTip>Rodyti ar slėpti nefiltruotus EKG duomenis</btnoriginal.toolTip>
+		<btncompare.toolTip>Palyginti EKG duomenis</btncompare.toolTip>
+		<cbscompare>Palyginti</cbscompare>
+		<msgnoecgdataselected>Nepasirinkti EKG duomenys</msgnoecgdataselected>
+		<btnbanpassfilter.toolTip>Pridėti ar nuimti 50/60 Hz filtravimą</btnbanpassfilter.toolTip>
+		<btnsenddicomlibrary>Dalintis</btnsenddicomlibrary>
+		<btnsenddicomlibrary.toolTip>Dalintis failais per Dicom Library</btnsenddicomlibrary.toolTip>
+	</Main>
+	<SaveImagesForm>
+		<group1>Formatas</group1>
+		<group2>Pasirinktą aktyvią</group2>
+		<rbSaveImage>Nuotrauką/Video</rbSaveImage>
+		<rbSaveSeries>Tyrimo seriją</rbSaveSeries>
+		<rbSaveStudy>Aktyvų tyrimą</rbSaveStudy>
+		<msgCollecting>RENKAMA INFORMACIJA</msgCollecting>
+		<msgDownloading>SIUNČIAMA</msgDownloading>
+		<msgDownloadCancel>SIUNTIMAS NUTRAUKTAS</msgDownloadCancel>
+		<msgDownloadComplete>SIUNTIMAS BAIGTAS</msgDownloadComplete>
+		<title>IŠSAUGOTI</title>
+		<btnSave>Išsaugoti</btnSave>
+	</SaveImagesForm>
+	<AboutForm>
+		<title>Apie</title>
+		<msgunlimited>Neribotas</msgunlimited>
+		<lblconnection>Prisijungimų skaičius:</lblconnection>
+		<msgconnections>Prisijungę:</msgconnections>
+		<lbllicenseto>Licencija priklauso:</lbllicenseto>
+		<lblvalidto>Galioja iki:</lblvalidto>
+		<lblupdateto>Atnaujinimai iki:</lblupdateto>
+		<lblversion>Versija:</lblversion>
+		<lblcontacts>Kontaktai:</lblcontacts>
+		<lblmdc>Medicininio prietaiso klasė:</lblmdc>
+		<lblmodule>Moduliai:</lblmodule>
+		<btnOK>Gerai</btnOK>
+		<lblproduct>Produktas:</lblproduct>
+		<guiversion>GVS versija:</guiversion>
+		<lblReleaseDate>Išleidimo data:</lblReleaseDate>
+		<notified>Notifikuotosios įstaigos ID:</notified>
+		<msgoutofdate>(pasenusi versija)</msgoutofdate>
+		<msguptodate>(naujausia versija)</msguptodate>
+		<msgusernewversion>Dėl naujos versijos susisiekite su savo&#13;sistemos administratoriumi</msgusernewversion>
+		<msgrootnewversion>Gaukite naujausią versiją iš link{www.softneta.com} arba,&#13;jei norite daugiau sužinoti apie naujas versijas,&#13;galite parašyti į el. paštą: email{info@softneta.com}</msgrootnewversion>
+		<msglicenseistoold>Atnaujinimai reikalauja atnaujinti licenziją,&#13;susisiekite su email{info@softneta.com} dėl&#13;kainų.</msglicenseistoold>
+		<lblmanufactured>Gamintojas:</lblmanufactured>
+		<lblFda>FDA leidimas:</lblFda>
+		<lblFdatext>Prekiauti diagnostiniais tikslais K162011 (įrenginio klasė: 2)</lblFdatext>
+	</AboutForm>
+	<CustomWLForm>
+		<btnApply>Pritaikyti</btnApply>
+		<btnClose>Uždaryti</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Paieška</title>
+		<titleLimitedViewAccess>Paieška (ribotos peržiūros teisės)</titleLimitedViewAccess>
+		<btnSearch>Ieškoti</btnSearch>
+		<popLabelPatientID>Paciento Nr.</popLabelPatientID>
+		<popSelectedPatientID>Paciento Nr:</popSelectedPatientID>
+		<popLabelPatientName>Paciento vardas</popLabelPatientName>
+		<popSelectedPatientName>Paciento vardas:</popSelectedPatientName>
+		<popLabelStudyID>Tyrimo Nr.</popLabelStudyID>
+		<popSelectedStudyID>Tyrimo Nr.:</popSelectedStudyID>
+		<popLabelAccession>Prisijungimo numeris</popLabelAccession>
+		<popSelectedAccession>Prisijungimo numeris:</popSelectedAccession>
+		<popLabelDescription>Aprašymas</popLabelDescription>
+		<popSelectedDescription>Aprašymas:</popSelectedDescription>
+		<popLabelReferringPhysician>Siunčiantis gydytojas</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Siunčiantis gyd.:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Vertinantis gydytojas</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Vertinantis gyd.:</popSelectedReadingPhysician>
+		<cbToDate>Iki:</cbToDate>
+		<cbFromDate>Nuo:</cbFromDate>
+		<btnToday>Šiandien</btnToday>
+		<btnYesterday>Vakar</btnYesterday>
+		<btnModAll>Visi</btnModAll>
+		<btnModNone>Nei vienas</btnModNone>
+		<btnOpen>Atidaryti</btnOpen>
+		<btnCancel>Atsisakyti</btnCancel>
+		<listPatientID>Paciento Nr.</listPatientID>
+		<listPatientName>Vardas</listPatientName>
+		<listPatientBirthdate>Gimimo data</listPatientBirthdate>
+		<listStudyID>Tyrimo Nr.</listStudyID>
+		<listAccession>Prisijungimo numeris</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Aprašymas</listDescription>
+		<listDate>Data</listDate>
+		<listTime>Laikas</listTime>
+		<listDateTime>Laikas</listDateTime>
+		<listReviewed>Peržiūrėta</listReviewed>
+		<listReferringPhysician>Siunčiantis gydytojas</listReferringPhysician>
+		<listReadingPhysician>Vertinantis gydytojas</listReadingPhysician>
+		<listSourceAE>Atsiųsta iš</listSourceAE>
+		<listReceivedOn>Gavimo laikas</listReceivedOn>
+		<dayNames>Sk,Pr,An,Tr,Kt,Pn,Št</dayNames>
+		<monthNames>Sausis,Vasaris,Kovas,Balandis,Gegužė,Birželis,Liepa,Rugpjūtis,Rugsėjis,Spalis,Lapkritis,Gruodis</monthNames>
+		<firstDayOfWeek>1</firstDayOfWeek>
+		<btnForwardStudy>Persiųsti</btnForwardStudy>
+		<btnExportStudy>Eksportuoti</btnExportStudy>
+		<cbAddStudy>Pridėti</cbAddStudy>
+		<lblInfo>Rasta per daug įrašų</lblInfo>
+		<msgInfoNoItems>Įrašų nerasta</msgInfoNoItems>
+	</SearchForm>
+	<medreport>
+		<pnlTemplates>RUOŠINIAI</pnlTemplates>
+		<btnInsertTemplate>Įkelti &gt;&gt;</btnInsertTemplate>
+		<btnNewTemplate>Pridėti</btnNewTemplate>
+		<btnEditTemplate>Taisyti</btnEditTemplate>
+		<btnDeleteTemplate>Ištrinti</btnDeleteTemplate>
+		<pnlReport>APRAŠYMAS</pnlReport>
+		<lblStudyTime>Tyrimo laikas:</lblStudyTime>
+		<lblReportTime>Aprašymo laikas:</lblReportTime>
+		<btnEdit>Koreguoti</btnEdit>
+		<btnSave>Saugoti</btnSave>
+		<btnPrint>Spausdinti</btnPrint>
+		<btnAddTemplate>&lt;&lt; Pridėti Ruošinį</btnAddTemplate>
+		<lblStudyIDValue>Tyrimo Nr.:</lblStudyIDValue>
+		<lblPatientIDValue>Paciento Nr.:</lblPatientIDValue>
+		<lblPatientNameValue>Pavardė Vardas:</lblPatientNameValue>
+		<lblPatientBirthDateValue>Gimimo data:</lblPatientBirthDateValue>
+		<lblStudyPhysicianValue>Gydytojas:</lblStudyPhysicianValue>
+		<lblPatientHistoryValue>Istorija:</lblPatientHistoryValue>
+		<msgDeleteTemplate>Ruošinys bus ištrintas. Ar tikrai norite ištrinti ruošinį?</msgDeleteTemplate>
+		<msgReplaceReport>Aprašymas bus pakeistas ruošinio tekstu. Ar tikrai norite įkelti ruošinį?</msgReplaceReport>
+		<yesAlertLabel>Taip</yesAlertLabel>
+		<noAlertLabel>Ne</noAlertLabel>
+		<btnUpload.toolTip>Įkelti</btnUpload.toolTip>
+		<btnDownload.toolTip>Parsisiųsti</btnDownload.toolTip>
+		<btnDelete.toolTip>Trinti</btnDelete.toolTip>
+		<msgDelete>Trinti "{item}"?</msgDelete>
+	</medreport>
+	<TemplateForm>
+		<title>Ruošinys</title>
+		<lblGroupName>Ruošinių grupė:</lblGroupName>
+		<lblName>Pavadinimas:</lblName>
+		<selectGroup>Pasirinkite grupę</selectGroup>
+		<btnOk>Saugoti</btnOk>
+		<btnCancel>Atsisakyti</btnCancel>
+		<TemplateNameError>Ruošinio pavadinimas negali būti tuščias</TemplateNameError>
+	</TemplateForm>
+	<ReportForm>
+		<title>Aprašymas</title>
+		<lblStudyDateTime>Tyrimo laikas:</lblStudyDateTime>
+		<lblStudyID>Tyrimo Nr.:</lblStudyID>
+		<lblReportDateTime>Aprašymo laikas:</lblReportDateTime>
+		<lblPatientID>Paciento Nr.:</lblPatientID>
+		<lblPatientName>Pavardė Vardas:</lblPatientName>
+		<btnClose>Uždaryti</btnClose>
+	</ReportForm>
+	<HeaderButtons>
+		<msgNoteButtonWrite>Rašyti aprašymą</msgNoteButtonWrite>
+		<msgNoteButtonEdit>Taisyti aprašymą</msgNoteButtonEdit>
+		<msgNoteButtonView>Žiūrėti aprašymą</msgNoteButtonView>
+		<msgPatient>Pacientas</msgPatient>
+		<btnStudyRefresh>Tyrimo struktūra papildyta - atsinaujinkite</btnStudyRefresh>
+	</HeaderButtons>
+	<ForwardForm>
+		<title>Persiųsti</title>
+		<lblPatientID>Paciento Nr.</lblPatientID>
+		<lblPatientName>Pavardė Vardas</lblPatientName>
+		<lblStudyDate>Tyrimo data</lblStudyDate>
+		<lblStudyTime>Tyrimo laikas</lblStudyTime>
+		<lblStudyDescription>Tyrimo aprašymas</lblStudyDescription>
+		<btnForwardTo>Persiųsti į</btnForwardTo>
+		<btnClose>Uždaryti</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Eksportuoti</title>
+		<lblPatientID>Paciento Nr.</lblPatientID>
+		<lblPatientName>Pavardė Vardas</lblPatientName>
+		<lblStudyDate>Tyrimo data</lblStudyDate>
+		<lblStudyTime>Tyrimo laikas</lblStudyTime>
+		<lblStudyDescription>Tyrimo aprašymas</lblStudyDescription>
+		<btnExport>Eksportuoti</btnExport>
+		<listName>Diskas</listName>
+		<listISO>ISO byla</listISO>
+		<listBurn>Įrašyti</listBurn>
+		<btnDownloadISO>Parsisiųsti ISO</btnDownloadISO>
+		<btnBurnNow>Įrašyti dabar</btnBurnNow>
+		<btnClose>Uždaryti</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Nustatymai</title>
+		<cntDicomView>DICOM peržiūra</cntDicomView>
+		<cbAutoStartMultiFrame>Startuoti Multi-Frame vaizdus iš karto</cbAutoStartMultiFrame>
+		<cntScreenLayout>Išdėstymas ekrane</cntScreenLayout>
+		<lblScreenLayoutRows>Eilutės:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Stulpeliai:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Įrankių juostos plotis:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Miniatiūrų juostų padėtis:</lblThumbnailsPosition>
+		<lblThumbnailsLeftSize>Miniatiūrų vertikalios juostos&#13;serijos dydis:</lblThumbnailsLeftSize>
+		<lblThumbnailsBottomSize>Miniatiūrų horizontalios juostos&#13;serijos dydis:</lblThumbnailsBottomSize>
+		<btnThumbnailsLeft.toolTip>Kairėje</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Apačioje</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Antraštės</cntInfoLabels>
+		<lblLeftSideInformation>Antraštės kairėje</lblLeftSideInformation>
+		<lblRightSideInformation>Antraštės dešinėje</lblRightSideInformation>
+		<lblInfolabelsSize>Teksto dydis (pagal nutylėjimą 13),&#13;jei vaizdo matmenys didesni nei:</lblInfolabelsSize>
+		<vbxStyle>Stilius</vbxStyle>
+		<btnOK>Gerai</btnOK>
+		<btnCancel>Atsisakyti</btnCancel>
+		<lblAutoOpenFirstImage>Automatiškai atverti pirmąjį vaizdą:</lblAutoOpenFirstImage>
+		<rbAutoOpenNo>Ne</rbAutoOpenNo>
+		<rbAutoOpenSingle>Jei vienas</rbAutoOpenSingle>
+		<rbAutoOpenAlways>Visada</rbAutoOpenAlways>
+		<cbStreaming>DICOM srautas (atsisiųsti visus tyrimų vaizdus)</cbStreaming>
+		<lblThumbnailsSize>Miniatiūrų dydis:</lblThumbnailsSize>
+		<lblThumbnailsSingleClick>Atvėrimas vienu paspaudimu:</lblThumbnailsSingleClick>
+		<btnThumbnailsSingleClick.toolTip>Vaizdų atvėrimas vienu paspaudimu</btnThumbnailsSingleClick.toolTip>
+		<lblReports>Aprašymai:</lblReports>
+		<lblScreenLayoutScale>Mastelis:</lblScreenLayoutScale>
+		<lblurl>Aprašymų adresas:</lblurl>
+		<lblReportPosition>Aprašymų padėtis:</lblReportPosition>
+		<btnReportsMax.toolTip>Atverti pilnai išdidintą</btnReportsMax.toolTip>
+		<btnReportsLeft.toolTip>Atverti kairėje pusėje</btnReportsLeft.toolTip>
+		<btnReportsCenter.toolTip>Atverti centre</btnReportsCenter.toolTip>
+		<btnReportsRight.toolTip>Atverti dešinėje pusėje</btnReportsRight.toolTip>
+		<lblReportPopup>Atverti atskirai:</lblReportPopup>
+		<btnReportsPopup.toolTip>Atverti atskirame lange</btnReportsPopup.toolTip>
+		<lblStyle>Stiliaus šablonai:</lblStyle>
+		<btnDeleteStyles>Trinti</btnDeleteStyles>
+		<lblStyleName>Stiliaus pavadinimas:</lblStyleName>
+		<btnStylesUpdate>Pervardinti</btnStylesUpdate>
+		<lblcolor1>Mygtukai:</lblcolor1>
+		<cpBut1.toolTip>Mygtuko viršutinė spalva</cpBut1.toolTip>
+		<cpBut2.toolTip>Mygtuko apatinė spalva</cpBut2.toolTip>
+		<cpButTheme.toolTip>Mygtuko temos spalva</cpButTheme.toolTip>
+		<cpButText.toolTip>Mygtuko teksto spalva</cpButText.toolTip>
+		<lblcolor2>Pažymėti mygtukai:</lblcolor2>
+		<cpButSelec1.toolTip>Pažymėto mygtuko viršutinė spalva</cpButSelec1.toolTip>
+		<cpButSelec2.toolTip>Pažymėto mygtuko apatinė spalva</cpButSelec2.toolTip>
+		<cpButThemeSelec.toolTip>Pažymėto mygtuko temos spalva</cpButThemeSelec.toolTip>
+		<cpButTextSelec.toolTip>Pažymėto mygtuko teksto spalva</cpButTextSelec.toolTip>
+		<lblcolor3>Fonai:</lblcolor3>
+		<cpMainBg.toolTip>Lango fono spalva</cpMainBg.toolTip>
+		<cpContentbg.toolTip>Lango vidinio fono spalva</cpContentbg.toolTip>
+		<cpBorderBg.toolTip>Lango rėmelio spalva</cpBorderBg.toolTip>
+		<lblcolor4>Pavadinimai:</lblcolor4>
+		<cpLabel.toolTip>Pavadinimų spalva</cpLabel.toolTip>
+		<lblcolor5>Įvesties laukai:</lblcolor5>
+		<cpInput.toolTip>Įvesties laukų teksto spalva</cpInput.toolTip>
+		<cpInputBg.toolTip>Įvesties laukų fono spalva</cpInputBg.toolTip>
+		<lblcolor6>Meniu:</lblcolor6>
+		<cpMenuText.toolTip>Meniu teksto spalva</cpMenuText.toolTip>
+		<cpMenuBorder.toolTip>Meniu rėmelio spalva</cpMenuBorder.toolTip>
+		<cpMenuTheme.toolTip>Meniu temos spalva</cpMenuTheme.toolTip>
+		<cpMenuBg.toolTip>Meniu fono spalva</cpMenuBg.toolTip>
+		<lblcolor7>Duomenų sąrašai:</lblcolor7>
+		<cpGrid1.toolTip>Duomenų sąrašo eilutės spalva</cpGrid1.toolTip>
+		<cpGrid2.toolTip>Duomenų sąrašo antros eilutės spalva</cpGrid2.toolTip>
+		<cpGridselect.toolTip>Duomenų sąrašo pažymėtos eilutės spalva</cpGridselect.toolTip>
+		<cpGridRol.toolTip>Duomenų sąrašo pele užvestos eilutės spalva</cpGridRol.toolTip>
+		<cpGridText.toolTip>Duomenų sąrašo teksto spalva</cpGridText.toolTip>
+		<cpGridTextSelecr.toolTip>Duomenų sąrašo pažymėto teksto spalva</cpGridTextSelecr.toolTip>
+		<cpGridBorder.toolTip>Duomenų sąrašo rėmelio spalva</cpGridBorder.toolTip>
+		<lblcolor8>Vaizdų aprašai:</lblcolor8>
+		<cpImage.toolTip>Miniatiūrų, atvertų vaizdų aprašų teksto spalva</cpImage.toolTip>
+		<msgStyleExsist>Toks stilius "{style}" jau yra</msgStyleExsist>
+		<vbxToolbar>Įrankių juosta</vbxToolbar>
+		<lblList1>Rodyti:</lblList1>
+		<lblList2>Slėpti:</lblList2>
+		<btnHide.toolTip>Slėpti</btnHide.toolTip>
+		<btnShow.toolTip>Rodyti</btnShow.toolTip>
+		<btnHideAll.toolTip>Slėpti įrankių juostą</btnHideAll.toolTip>
+		<btnlocalclear>Išvalyti vietinius nustatymus</btnlocalclear>
+		<btnlocal>Atnaujinti vietinius nustatymus</btnlocal>
+		<msgRestart>Pakeitimai įsigalios, kai&#13;prisijungsite iš naujo</msgRestart>
+		<vbxSearchGrid>Paieška</vbxSearchGrid>
+		<lblMultiScreenMode>Kelių monitorių palaikymas:</lblMultiScreenMode>
+		<btnMultiScreenMode.toolTip>Įjungti/Išjungti kelių monitorių palaikymą</btnMultiScreenMode.toolTip>
+		<lblautologout>Automatinis atjungimas po:</lblautologout>
+		<labDefaultviewer>Numatytoji peržiūra:</labDefaultviewer>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Kopijuoti vaizdo nuorodą (JPEG)</cmiImageLinkJPEG>
+		<cmiSaveImages>Saugoti vaizdus...</cmiSaveImages>
+		<cmiCineMode>Peržiūros režimas</cmiCineMode>
+	</DicomViewContextMenu>
+	<RegisterForm>
+		<msgInvalidSerial>Neteisingas licencijos kodas!</msgInvalidSerial>
+		<organizationLabel>Organizacija:</organizationLabel>
+		<serialLabel>Kodas:</serialLabel>
+		<reloginlabel>Licencija galėsite naudotis po kito prisijungimo</reloginlabel>
+		<msgInvalidLicense>Blogas licencijos failas.&#13;Prašome ištrinti licencijos failą, tada iš naujo paleiskite programą ir pabandykite užregistruoti</msgInvalidLicense>
+		<btnRegister>Registruoti</btnRegister>
+		<msgAllFieldMustBeFilled>Visi laukai turi būti užpildyti</msgAllFieldMustBeFilled>
+		<btnBuy>PIRKTI DABAR!</btnBuy>
+	</RegisterForm>
+	<Common>
+		<msgNoDataYes>TAIP</msgNoDataYes>
+		<msgNoDataNo>NE</msgNoDataNo>
+		<msgNoDataClose>Uždaryti</msgNoDataClose>
+		<btnOK>Gerai</btnOK>
+		<btnClose>Uždaryti</btnClose>
+		<btnCancel>Atsisakyti</btnCancel>
+		<btnDelete>Trinti</btnDelete>
+		<msgWait>Prašome palaukti</msgWait>
+	</Common>
+	<PrintPage>
+		<title>Spausdinimo nustatymai</title>
+		<toolTips>Puslapio išdėstymas</toolTips>
+		<btnOK>Gerai</btnOK>
+		<btnCancel>Atsisakyti</btnCancel>
+	</PrintPage>
+	<PluginView>
+		<btnRender>Apdoroti</btnRender>
+		<btnChange.toolTip>Pakeisti vaizdą</btnChange.toolTip>
+		<btnClose>Uždaryti</btnClose>
+		<box1>Originalus</box1>
+		<box2>Apdorotas</box2>
+	</PluginView>
+	<Upload>
+		<msgUploadProgress>Įkelta</msgUploadProgress>
+	</Upload>
+	<export>
+		<Unlimited>Neribotas (vienas diskas)</Unlimited>
+	</export>
+	<annotation>
+		<SaveAnnotationModal>IŠSAUGOTI ANOTACIJAS</SaveAnnotationModal>
+		<Title>Pavadinimas</Title>
+		<Required>Privaloma</Required>
+		<msgRequiredFileds>Privaloma:{fields}</msgRequiredFileds>
+		<Description>Aprašymas</Description>
+		<StoringType>Saugojimo tipas</StoringType>
+		<Save>Saugoti</Save>
+		<Error_1>Jūs negalite sukurti anotacijos, nes naudojami neoriginalūs tyrimo duomenys.</Error_1>
+	</annotation>
+	<DicomLibrary>
+		<title>DALINTIS FAILAIS PER DICOM LIBRARY</title>
+		<lbemailto>Gavėjo el. paštas</lbemailto>
+		<lbemailfrom>Siuntėjo el. paštas</lbemailfrom>
+		<lbmessage>Žinutė</lbmessage>
+		<btnsend>Siųsti</btnsend>
+		<msgemialfrom>Gaus tyrimo peržiūros nuorodą ir valdymo nuorodą į Dicom Library į nurodytą el. paštą</msgemialfrom>
+		<msgemialto>Gaus tyrimo peržiūros nuorodą į Dicom Library į nurodytą el. paštą</msgemialto>
+		<msginvalidemail>Netinkamas el. paštas</msginvalidemail>
+		<lblDrop>Tempkite miniatiūras čia</lblDrop>
+		<lblSubject>Tema</lblSubject>
+		<cbNotRobot>Aš ne robotas</cbNotRobot>
+		<lblWarning>Prisiimate riziką naudodami privačius duomenis</lblWarning>
+		<msgRequestInLine>Prašymas buvo priimtas ir laukia savo eilės</msgRequestInLine>
+		<msgNoImage>Nepasirinkta nuotrauka</msgNoImage>
+	</DicomLibrary>
+	<settings>
+		<logOutTimer>Automatinis atjungimas po:</logOutTimer>
+	</settings>
+	<branding>
+		<errorValidateBranding>Klaida: blogas prekės ženklo keitimo failas rebranding/rebranding_configuration.json</errorValidateBranding>
+	</branding>
+</languages>

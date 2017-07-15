@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>DE</language>
+	<login>
+		<errorUsernamePassword>Fehler: Bitte Benutzernamen und Passwort prüfen</errorUsernamePassword>
+		<errorObjNotFound1>objekt</errorObjNotFound1>
+		<errorObjNotFound2>nicht gefunden</errorObjNotFound2>
+		<errorObjNotFound3>Möglicherweise können Sie es nach dem Anmelden manuell suchen</errorObjNotFound3>
+		<errorValidateConnect>Fehler: Verbindung mit Datenbank für HIS-Link-Überprüfung nicht möglich.&#13;&#13;Bitte kontaktieren Sie Ihren Systemadministrator</errorValidateConnect>
+		<errorValidateQuery>Fehler: HIS-Link-Überprüfungsabfrage fehlgeschlagen.&#13;&#13;Bitte kontaktieren Sie Ihren Systemadministrator</errorValidateQuery>
+		<errorTooManyFailures>Fehler: zuviel falsche Verbindungen, bitte after {n} Minuten wiederholen</errorTooManyFailures>
+		<missingExt>Fehler: PHP "{n}"-Extension nicht installiert</missingExt>
+		<missingExtMeddream>Fehler: php_meddream.dll nicht installiert</missingExtMeddream>
+		<testWriteable>Fehler: Das MedDream-Verzeichnis ist nicht schreibbar (Hinweis: {r})</testWriteable>
+		<testWriteableTemp>Fehler: Das 'temp'-Unterverzeichnis ist nicht schreibbar (Hinweis: {r})</testWriteableTemp>
+		<testWriteableLog>Fehler: Das 'log'-Unterverzeichnis ist nicht schreibbar (Hinweis: {r})</testWriteableLog>
+		<isTimezoneError>Fehler: date.timezone nicht in php.ini angegeben</isTimezoneError>
+		<oldPhpVersion>Fehler: Für MedDream ist PHP 5.3.0 oder höher erforderlich (aktuelle PHP-Version ist {v})</oldPhpVersion>
+		<unsupportedCgi>Fehler: PHP wird in den Web-Server über den "{s}" SAPI integriert. Dieser Modus wird nicht unterstützt.</unsupportedCgi>
+	</login>
+	<Main>
+		<btnLanguage>DE</btnLanguage>
+		<helpURL>locales/en/help.pdf</helpURL>
+		<btnSearch>Suchen</btnSearch>
+		<btnLogoff>Abmelden</btnLogoff>
+		<btnPlugin>Plugins</btnPlugin>
+		<btnChanels>Kanäle</btnChanels>
+		<btnMove>Hand</btnMove>
+		<btnZoom>Zoom</btnZoom>
+		<btnMeasure>Messen</btnMeasure>
+		<btnMagnifinder>Magnifier</btnMagnifinder>
+		<btnZoomAll>Anpassen</btnZoomAll>
+		<btnZoom11>1:1</btnZoom11>
+		<btnTransform>Umwandeln</btnTransform>
+		<btnLockScroll>Sperren</btnLockScroll>
+		<btnReferenceLines>Bezugslinien</btnReferenceLines>
+		<btnScroll>Scrollen</btnScroll>
+		<btnMultiImage11>1x1</btnMultiImage11>
+		<btnMultiImage22>2x2</btnMultiImage22>
+		<btnScreenLayout11>1x1</btnScreenLayout11>
+		<btnScreenLayout12>1x2</btnScreenLayout12>
+		<btnScreenLayout22>2x2</btnScreenLayout22>
+		<btnScreenLayout>Anordnung</btnScreenLayout>
+		<btnThumbnailsPosition>Vorschaubilder</btnThumbnailsPosition>
+		<btnPrint>Drucken</btnPrint>
+		<btnForward>Versenden</btnForward>
+		<btnBurn>Brennen</btnBurn>
+		<btnDownload>Speichern</btnDownload>
+		<btnReset>Rücksetzen</btnReset>
+		<btnAnnotation>i</btnAnnotation>
+		<btnmpr>MPR</btnmpr>
+		<btnCine>Kinomodus</btnCine>
+		<btnFilter>Filter 1</btnFilter>
+		<btnoriginal>Original</btnoriginal>
+		<btncompare>EKG vergleichen</btncompare>
+		<btnbanpassfilter>50 Hz</btnbanpassfilter>
+		<btnSettings>Einstellungen</btnSettings>
+		<btnInfo>Informationen</btnInfo>
+		<btnHelp>Hilfe</btnHelp>
+		<btnFullScreen>Vollbildschirm</btnFullScreen>
+		<btnClose>Schließen</btnClose>
+		<btnWL>*Windowing</btnWL>
+		<btnWL.toolTip>Fensterung (W)</btnWL.toolTip>
+		<btnMove.toolTip>Hand (H)</btnMove.toolTip>
+		<btnZoom.toolTip>Zoom (+/-)</btnZoom.toolTip>
+		<btnMeasure.toolTip>Messen</btnMeasure.toolTip>
+		<btnMagnifinder.toolTip>Magnifier (M)</btnMagnifinder.toolTip>
+		<btnZoomAll.toolTip>An Bildschirmgröße anpassen (2)</btnZoomAll.toolTip>
+		<btnZoom11.toolTip>1:1-Auflösung (1)</btnZoom11.toolTip>
+		<btnTransform.toolTip>Umwandeln</btnTransform.toolTip>
+		<btnLockScroll.toolTip>Scrollen sperren</btnLockScroll.toolTip>
+		<btnScroll.toolTip>Scrollen einstellen</btnScroll.toolTip>
+		<btnReferenceLines.toolTip>Bezugslinien</btnReferenceLines.toolTip>
+		<btnNotes.toolTip>Bericht</btnNotes.toolTip>
+		<btnMultiImage11.toolTip>1x1 Mehrbild</btnMultiImage11.toolTip>
+		<btnMultiImage22.toolTip>2x2 Mehrbild</btnMultiImage22.toolTip>
+		<btnScreenLayout11.toolTip>1x1 Bildschirmanordnung</btnScreenLayout11.toolTip>
+		<btnScreenLayout12.toolTip>1x2 Bildschirmanordnung</btnScreenLayout12.toolTip>
+		<btnScreenLayout22.toolTip>2x2 Bildschirmanordnung</btnScreenLayout22.toolTip>
+		<btnScreenLayout.toolTip>Bildschirmanordnung</btnScreenLayout.toolTip>
+		<btnThumbnailsPosition.toolTip>Vorschaubildposition Links/Unten</btnThumbnailsPosition.toolTip>
+		<btnForward.toolTip>Versenden</btnForward.toolTip>
+		<btnBurn.toolTip>Brennen</btnBurn.toolTip>
+		<btnPrint.toolTip>Drucken</btnPrint.toolTip>
+		<btnReports.toolTip>Berichte</btnReports.toolTip>
+		<btnSettings.toolTip>Einstellungen</btnSettings.toolTip>
+		<btnInfo.toolTip>Informationen</btnInfo.toolTip>
+		<btnHelp.toolTip>Hilfe (F1)</btnHelp.toolTip>
+		<btnFullScreen.toolTip>Vollbildschirm</btnFullScreen.toolTip>
+		<btnPlugin.toolTip>Plugins</btnPlugin.toolTip>
+		<btnChanels.toolTip>RGB-Kanäle</btnChanels.toolTip>
+		<btnCine.toolTip>Kinomodus</btnCine.toolTip>
+		<btntags.toolTip>*Show DICOM file header</btntags.toolTip>
+		<windowingDefault>*Default</windowingDefault>
+		<windowingAuto>*Auto</windowingAuto>
+		<windowingAbdomen>*Abdomen</windowingAbdomen>
+		<windowingBone>*Bone</windowingBone>
+		<windowingCerebrum>*Cerebrum</windowingCerebrum>
+		<windowingLiver>*Liver</windowingLiver>
+		<windowingLung>*Lung</windowingLung>
+		<windowingMediastinum>*Mediastinum</windowingMediastinum>
+		<windowingPelvis>*Pelvis</windowingPelvis>
+		<windowingPosteriorFossa>*Posterior Fossa</windowingPosteriorFossa>
+		<windowingInvert>*Invert (I)</windowingInvert>
+		<msgImage>Bild</msgImage>
+		<msgNoLicense>Keine Lizenz gefunden</msgNoLicense>
+		<msgConnectionLost>Verbindung getrennt!</msgConnectionLost>
+		<msgCantConnect>Verbindung nicht möglich!</msgCantConnect>
+		<msgLicenseSupportOneCon>Die Lizenz unterstützt nur eine {product}-Instanz auf dem Server</msgLicenseSupportOneCon>
+		<msgLicenseError>Lizenzfehler</msgLicenseError>
+		<msgError>Fehler</msgError>
+		<msgInstallError>Installationsfehler</msgInstallError>
+		<msgXmlError>Fehler: falsche Syntax von settings.xml</msgXmlError>
+		<msgMdVersionMismatch>{product} .swf-Dateiversion falsch</msgMdVersionMismatch>
+		<msgMdVersionOld>Bitte aktualisieren Sie Ihre Lizenz auf die neueste Softwareversion</msgMdVersionOld>
+		<msgMdLicenseOld>Die Lizenz ist veraltet</msgMdLicenseOld>
+		<msgMdManyUsers>Zu viele Benutzer verbunden&#13;Bitte warten Sie einige Minuten und versuchen Sie es dann erneut</msgMdManyUsers>
+		<msgMdLicenseBad>Lizenz nicht gültig</msgMdLicenseBad>
+		<msgNoReport>Kein Bericht</msgNoReport>
+		<transformDataProvider1>Rechts drehen</transformDataProvider1>
+		<transformDataProvider2>Links drehen</transformDataProvider2>
+		<transformDataProvider4>Horizontal wenden</transformDataProvider4>
+		<transformDataProvider5>Vertikal wenden</transformDataProvider5>
+		<measureDataProvider1>Linie</measureDataProvider1>
+		<measureDataProvider2>Winkel anzeigen</measureDataProvider2>
+		<measureDataProvider3>Winkel</measureDataProvider3>
+		<measureDataProvider4>Hilfskontur</measureDataProvider4>
+		<measureDataProvider5>Bereich</measureDataProvider5>
+		<measureDataProvider6>Volumen</measureDataProvider6>
+		<measureDataProvider7>Kalibrierung</measureDataProvider7>
+		<measureDataProvider8>Intensität</measureDataProvider8>
+		<measureDataProvider9>Alle löschen</measureDataProvider9>
+		<measureDataProvider10>Cobb-Winkel</measureDataProvider10>
+		<measureDataProvider11>Punkte</measureDataProvider11>
+		<measureDataProvider12>Annotation speichern</measureDataProvider12>
+		<measureDataProvider15>Norberg Winkel</measureDataProvider15>
+		<measureDataProvider16>Text</measureDataProvider16>
+		<measureDataProviderECG1>Messung (mV, s)</measureDataProviderECG1>
+		<measureDataProviderECG2>QT-Punkte (RR, QT, QTc)</measureDataProviderECG2>
+		<print>Drucken</print>
+		<printwithimages>Mit Bildern drucken</printwithimages>
+		<printSeries>Serie drucken</printSeries>
+		<printDicom>DICOM-Druck</printDicom>
+		<chanelDefault>Standard</chanelDefault>
+		<chanelRed>Rot</chanelRed>
+		<chanelGreen>Grün</chanelGreen>
+		<chanelBlue>Blau</chanelBlue>
+		<chanelRedGreen>Rot, Grün</chanelRedGreen>
+		<chanelRedBlue>Rot, Blau</chanelRedBlue>
+		<chanelGreenBlue>Grün, Blau</chanelGreenBlue>
+		<msgUpload>Hochladen</msgUpload>
+		<cbfilter>Filter 1 entfernen/anwenden</cbfilter>
+		<cbsmooth>Weichzeichnung entfernen/anwenden</cbsmooth>
+		<mprwarning>Bildscheibe kann falsch sein, aufgrund der unterschiedlichen Bilder!</mprwarning>
+		<msginvalidframes>Schlechte Auswahl der Bilder!</msginvalidframes>
+		<msgclosestudies>Aufnahme schließen</msgclosestudies>
+		<btnReset.toolTip>Rücksetzen</btnReset.toolTip>
+		<savedpresentationstateerror>*Error sending dicom, please see the log</savedpresentationstateerror>
+		<savedpresentationstate>*Measurements saved to&#13;Presentation State DICOM (modality=PR)</savedpresentationstate>
+		<btnFilter.toolTip>*Show or hide filtered ECG data</btnFilter.toolTip>
+		<btnoriginal.toolTip>*Show or hide not filtered ECG data</btnoriginal.toolTip>
+		<btncompare.toolTip>*Compare ECG data</btncompare.toolTip>
+		<cbscompare>*Compare</cbscompare>
+		<msgnoecgdataselected>*No ECG data selected</msgnoecgdataselected>
+		<btnbanpassfilter.toolTip>*Add or remove 50/60 Hz filter</btnbanpassfilter.toolTip>
+		<btnsenddicomlibrary>*Share</btnsenddicomlibrary>
+		<btnsenddicomlibrary.toolTip>*Share files via Dicom Library</btnsenddicomlibrary.toolTip>
+	</Main>
+	<SaveImagesForm>
+		<group1>Format</group1>
+		<group2>Aktive speichern</group2>
+		<rbSaveImage>Aktives Bild/Video</rbSaveImage>
+		<rbSaveSeries>Aktuelle Serie</rbSaveSeries>
+		<rbSaveStudy>*Save Active Study</rbSaveStudy>
+		<msgCollecting>SAMMELN</msgCollecting>
+		<msgDownloading>HERUNTERLADEN</msgDownloading>
+		<msgDownloadCancel>HERUNTERLADEN ABGEBROCHEN</msgDownloadCancel>
+		<msgDownloadComplete>HERUNTERLADEN ABGESCHLOSSEN</msgDownloadComplete>
+		<title>SPEICHERN</title>
+		<btnSave>Speichern</btnSave>
+	</SaveImagesForm>
+	<AboutForm>
+		<title>About</title>
+		<msgunlimited>Unbegrenzt</msgunlimited>
+		<lblconnection>Gleichzeitige Verbindungen:</lblconnection>
+		<msgconnections>Verbunden:</msgconnections>
+		<lbllicenseto>Lizenziert für:</lbllicenseto>
+		<lblvalidto>Gültig bis:</lblvalidto>
+		<lblupdateto>Aktualisierungen bis:</lblupdateto>
+		<lblversion>Version:</lblversion>
+		<lblcontacts>Kontakte:</lblcontacts>
+		<lblmdc>Medizinprodukt der Klasse:</lblmdc>
+		<lblmodule>Module:</lblmodule>
+		<btnOK>OK</btnOK>
+		<lblproduct>*Product:</lblproduct>
+		<guiversion>*GUI version:</guiversion>
+		<lblReleaseDate>*Release Date:</lblReleaseDate>
+		<notified>*ID of the notified body:</notified>
+		<msgoutofdate>*(version is out of date)</msgoutofdate>
+		<msguptodate>*(version is up to date)</msguptodate>
+		<msgusernewversion>*For new version, please contact your system&#13;administrator</msgusernewversion>
+		<msgrootnewversion>*Get the latest version from link{www.softneta.com}&#13;or if you want to know more about new&#13;versions, you can e-mail us:email{info@softneta.com}</msgrootnewversion>
+		<msglicenseistoold>*Your license is too old for this update,&#13;contact email{info@softneta.com} for current&#13;prices.</msglicenseistoold>
+		<lblmanufactured>*Manufactured by:</lblmanufactured>
+		<lblFda>*FDA Cleared:</lblFda>
+		<lblFdatext>*For diagnostic use K162011 (device class: 2)</lblFdatext>
+	</AboutForm>
+	<CustomWLForm>
+		<btnApply>Übernehmen</btnApply>
+		<btnClose>Schließen</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Suche</title>
+		<titleLimitedViewAccess>Suche (eingeschränkter Ansichtszugriff)</titleLimitedViewAccess>
+		<btnSearch>Suchen</btnSearch>
+		<popLabelPatientID>Patienten-ID</popLabelPatientID>
+		<popSelectedPatientID>Patienten-ID:</popSelectedPatientID>
+		<popLabelPatientName>Patientenname</popLabelPatientName>
+		<popSelectedPatientName>Patientenname:</popSelectedPatientName>
+		<popLabelStudyID>Untersuchungs-ID</popLabelStudyID>
+		<popSelectedStudyID>Untersuchungs-ID:</popSelectedStudyID>
+		<popLabelAccession>Zugangsnummer</popLabelAccession>
+		<popSelectedAccession>Zugangsnummer:</popSelectedAccession>
+		<popLabelDescription>Beschreibung</popLabelDescription>
+		<popSelectedDescription>Beschreibung:</popSelectedDescription>
+		<popLabelReferringPhysician>Überweisender Arzt</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Überweisender Arzt:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Befundender Arzt</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Befundender Arzt:</popSelectedReadingPhysician>
+		<cbToDate>An:</cbToDate>
+		<cbFromDate>Von:</cbFromDate>
+		<btnToday>Heute</btnToday>
+		<btnYesterday>Gestern</btnYesterday>
+		<btnModAll>Alle</btnModAll>
+		<btnModNone>Keine</btnModNone>
+		<btnOpen>Öffnen</btnOpen>
+		<btnCancel>Abbrechen</btnCancel>
+		<listPatientID>Patienten-ID</listPatientID>
+		<listPatientName>Name</listPatientName>
+		<listPatientBirthdate>Geburtsdatum</listPatientBirthdate>
+		<listStudyID>Untersuchungs-ID</listStudyID>
+		<listAccession>Zugangsnummer</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Beschreibung</listDescription>
+		<listDate>Datum</listDate>
+		<listTime>Zeit</listTime>
+		<listDateTime>Zeit</listDateTime>
+		<listReviewed>Geprüft</listReviewed>
+		<listReferringPhysician>Überweisender Arzt</listReferringPhysician>
+		<listReadingPhysician>Befundender Arzt</listReadingPhysician>
+		<listSourceAE>Ausgangs-AE</listSourceAE>
+		<listReceivedOn>Geprüft am</listReceivedOn>
+		<dayNames>S,M,D,M,D,F,S</dayNames>
+		<monthNames>Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember</monthNames>
+		<firstDayOfWeek>1</firstDayOfWeek>
+		<btnForwardStudy>Versenden</btnForwardStudy>
+		<btnExportStudy>Exportieren</btnExportStudy>
+		<cbAddStudy>Hinzufügen</cbAddStudy>
+		<lblInfo>Zu viele Einträge gefunden!</lblInfo>
+		<msgInfoNoItems>Keine Einträge gefunden!</msgInfoNoItems>
+	</SearchForm>
+	<medreport>
+		<pnlTemplates>VORLAGEN</pnlTemplates>
+		<btnInsertTemplate>Einfügen &gt;&gt;</btnInsertTemplate>
+		<btnNewTemplate>Neu</btnNewTemplate>
+		<btnEditTemplate>Bearbeiten</btnEditTemplate>
+		<btnDeleteTemplate>Löschen</btnDeleteTemplate>
+		<pnlReport>BERICHT</pnlReport>
+		<lblStudyTime>Untersuchungszeit:</lblStudyTime>
+		<lblReportTime>Berichtszeit:</lblReportTime>
+		<btnEdit>Bearbeiten</btnEdit>
+		<btnSave>Speichern</btnSave>
+		<btnPrint>Drucken</btnPrint>
+		<btnAddTemplate>&lt;&lt; Vorlage hinzufügen</btnAddTemplate>
+		<lblStudyIDValue>Studien-ID:</lblStudyIDValue>
+		<lblPatientIDValue>Patienten-ID:</lblPatientIDValue>
+		<lblPatientNameValue>Patientenname:</lblPatientNameValue>
+		<lblPatientBirthDateValue>Geburtsdatum:</lblPatientBirthDateValue>
+		<lblStudyPhysicianValue>Arzt:</lblStudyPhysicianValue>
+		<lblPatientHistoryValue>Anamnese:</lblPatientHistoryValue>
+		<msgDeleteTemplate>Die Vorlage wird gelöscht. Möchten Sie die Vorlage wirklich löschen?</msgDeleteTemplate>
+		<msgReplaceReport>Der Bericht wird durch die ausgewählte Vorlage ersetzt. Möchten Sie den Bericht wirklich ersetzen?</msgReplaceReport>
+		<yesAlertLabel>Ja</yesAlertLabel>
+		<noAlertLabel>Nein</noAlertLabel>
+		<btnUpload.toolTip>Hinaufladen</btnUpload.toolTip>
+		<btnDownload.toolTip>Herunterladen</btnDownload.toolTip>
+		<btnDelete.toolTip>Löschen</btnDelete.toolTip>
+		<msgDelete>"{item}" löschen?</msgDelete>
+	</medreport>
+	<TemplateForm>
+		<title>Vorlage</title>
+		<lblGroupName>Vorlagengruppe:</lblGroupName>
+		<lblName>Vorlagenname:</lblName>
+		<selectGroup>Gruppe auswählen</selectGroup>
+		<btnOk>Speichern</btnOk>
+		<btnCancel>Abbrechen</btnCancel>
+		<TemplateNameError>Vorlagenname darf nicht leer sein</TemplateNameError>
+	</TemplateForm>
+	<ReportForm>
+		<title>Bericht</title>
+		<lblStudyDateTime>Aufnahmezeit:</lblStudyDateTime>
+		<lblStudyID>Aufnahme-ID:</lblStudyID>
+		<lblReportDateTime>Berichtszeit:</lblReportDateTime>
+		<lblPatientID>Patienten-ID:</lblPatientID>
+		<lblPatientName>Patientenname:</lblPatientName>
+		<btnClose>Schließen</btnClose>
+	</ReportForm>
+	<HeaderButtons>
+		<msgNoteButtonWrite>Bericht schreiben</msgNoteButtonWrite>
+		<msgNoteButtonEdit>Bericht bearbeiten</msgNoteButtonEdit>
+		<msgNoteButtonView>Bericht ansehen</msgNoteButtonView>
+		<msgPatient>Patient</msgPatient>
+		<btnStudyRefresh>Studie wurde aktualisiert - refresh</btnStudyRefresh>
+	</HeaderButtons>
+	<ForwardForm>
+		<title>Versenden</title>
+		<lblPatientID>Patienten-ID</lblPatientID>
+		<lblPatientName>Patientenname</lblPatientName>
+		<lblStudyDate>Aufnahmedatum</lblStudyDate>
+		<lblStudyTime>Aufnahmezeit</lblStudyTime>
+		<lblStudyDescription>Aufnahmebeschreibung</lblStudyDescription>
+		<btnForwardTo>Versenden zu</btnForwardTo>
+		<btnClose>Schließen</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Exportieren</title>
+		<lblPatientID>Patienten-ID</lblPatientID>
+		<lblPatientName>Patientenname</lblPatientName>
+		<lblStudyDate>Aufnahmedatum</lblStudyDate>
+		<lblStudyTime>Aufnahmezeit</lblStudyTime>
+		<lblStudyDescription>Aufnahmebeschreibung</lblStudyDescription>
+		<btnExport>Exportieren</btnExport>
+		<listName>Volumen</listName>
+		<listISO>ISO-Bild</listISO>
+		<listBurn>Brennen</listBurn>
+		<btnDownloadISO>ISO herunterladen</btnDownloadISO>
+		<btnBurnNow>Jetzt brennen</btnBurnNow>
+		<btnClose>Schließen</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Einstellungen</title>
+		<cntDicomView>DICOM-Ansicht</cntDicomView>
+		<cbAutoStartMultiFrame>Multi-Frame-Bilder automatisch starten</cbAutoStartMultiFrame>
+		<cntScreenLayout>Bildschirmanordnung</cntScreenLayout>
+		<lblScreenLayoutRows>Zeilen:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Spalten:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Breite der oberen Symbolleiste:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Position der Vorschaubilder:</lblThumbnailsPosition>
+		<lblThumbnailsLeftSize>Vertikale Leiste der Vorschaubilder&#13;Seriengröße:</lblThumbnailsLeftSize>
+		<lblThumbnailsBottomSize>Horizontale Leiste der Vorschaubilder&#13;Seriengröße:</lblThumbnailsBottomSize>
+		<btnThumbnailsLeft.toolTip>Links</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Unten</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Informationsbeschriftung</cntInfoLabels>
+		<lblLeftSideInformation>Informationen linke Seite</lblLeftSideInformation>
+		<lblRightSideInformation>Informationen rechte Seite</lblRightSideInformation>
+		<lblInfolabelsSize>Textgröße (standardmäßig: 13),&#13;wenn Bildgröße ist mehr als:</lblInfolabelsSize>
+		<vbxStyle>Stil</vbxStyle>
+		<btnOK>OK</btnOK>
+		<btnCancel>Abbrechen</btnCancel>
+		<lblAutoOpenFirstImage>Erstes Bild automatisch öffnen:</lblAutoOpenFirstImage>
+		<rbAutoOpenNo>Nein</rbAutoOpenNo>
+		<rbAutoOpenSingle>Einzeln</rbAutoOpenSingle>
+		<rbAutoOpenAlways>Immer</rbAutoOpenAlways>
+		<cbStreaming>DICOM-Ablauf (alle Studienbilder nacheinander vorladen)</cbStreaming>
+		<lblThumbnailsSize>Größe der Vorschaubilder:</lblThumbnailsSize>
+		<lblThumbnailsSingleClick>Einfacher Klick auf Vorschaubilder:</lblThumbnailsSingleClick>
+		<btnThumbnailsSingleClick.toolTip>Einfacher Mausklick auf Vorschaubilder</btnThumbnailsSingleClick.toolTip>
+		<lblReports>Berichte:</lblReports>
+		<lblScreenLayoutScale>Maßstab:</lblScreenLayoutScale>
+		<lblurl>Berichts-URL:</lblurl>
+		<lblReportPosition>Position der Berichte:</lblReportPosition>
+		<btnReportsMax.toolTip>Berichte in Originalgröße</btnReportsMax.toolTip>
+		<btnReportsLeft.toolTip>Berichte auf linker Seite</btnReportsLeft.toolTip>
+		<btnReportsCenter.toolTip>Berichte in der Mitte</btnReportsCenter.toolTip>
+		<btnReportsRight.toolTip>Berichte auf rechter Seite</btnReportsRight.toolTip>
+		<lblReportPopup>Berichte in Popup:</lblReportPopup>
+		<btnReportsPopup.toolTip>Berichte in anderem Fenster</btnReportsPopup.toolTip>
+		<lblStyle>Stilvorlage:</lblStyle>
+		<btnDeleteStyles>Löschen</btnDeleteStyles>
+		<lblStyleName>Stilname:</lblStyleName>
+		<btnStylesUpdate>Umbenennen</btnStylesUpdate>
+		<lblcolor1>Schaltflächen:</lblcolor1>
+		<cpBut1.toolTip>Farbe der Schaltfläche oben</cpBut1.toolTip>
+		<cpBut2.toolTip>Farbe der Schaltfläche unten</cpBut2.toolTip>
+		<cpButTheme.toolTip>Farbe des Schaltflächenthemas</cpButTheme.toolTip>
+		<cpButText.toolTip>Farbe des Schaltflächentextes</cpButText.toolTip>
+		<lblcolor2>Ausgewählte Schaltflächen:</lblcolor2>
+		<cpButSelec1.toolTip>Farbe der ausgewählten Schaltfläche oben</cpButSelec1.toolTip>
+		<cpButSelec2.toolTip>Farbe der ausgewählten Schaltfläche unten</cpButSelec2.toolTip>
+		<cpButThemeSelec.toolTip>Farbe des Themas der ausgewählten Schaltfläche</cpButThemeSelec.toolTip>
+		<cpButTextSelec.toolTip>Farbe des Textes der ausgewählten Schaltfläche</cpButTextSelec.toolTip>
+		<lblcolor3>Hintergründe:</lblcolor3>
+		<cpMainBg.toolTip>Farbe des Fensterhintergrunds</cpMainBg.toolTip>
+		<cpContentbg.toolTip>Farbe des inneren Fensterhintergrunds</cpContentbg.toolTip>
+		<cpBorderBg.toolTip>Farbe des Fensterrahmens</cpBorderBg.toolTip>
+		<lblcolor4>Beschriftungen:</lblcolor4>
+		<cpLabel.toolTip>Farbe des Beschriftungstextes</cpLabel.toolTip>
+		<lblcolor5>Eingaben:</lblcolor5>
+		<cpInput.toolTip>Farbe des Eingabetextes</cpInput.toolTip>
+		<cpInputBg.toolTip>Farbe des Eingabehintergrunds</cpInputBg.toolTip>
+		<lblcolor6>Menü:</lblcolor6>
+		<cpMenuText.toolTip>Farbe des Menütextes</cpMenuText.toolTip>
+		<cpMenuBorder.toolTip>Farbe des Menürahmens</cpMenuBorder.toolTip>
+		<cpMenuTheme.toolTip>Farbe des Menüthemas</cpMenuTheme.toolTip>
+		<cpMenuBg.toolTip>Farbe des Menühintergrunds</cpMenuBg.toolTip>
+		<lblcolor7>Datentabellen:</lblcolor7>
+		<cpGrid1.toolTip>Linienfarbe der Datentabellen</cpGrid1.toolTip>
+		<cpGrid2.toolTip>Zweite Linienfarbe der Datentabellen</cpGrid2.toolTip>
+		<cpGridselect.toolTip>Ausgewählte Linienfarbe der Datentabellen</cpGridselect.toolTip>
+		<cpGridRol.toolTip>Linienfarbe der Datentabellen unter Mauszeiger</cpGridRol.toolTip>
+		<cpGridText.toolTip>Textfarbe der Datentabellen</cpGridText.toolTip>
+		<cpGridTextSelecr.toolTip>Ausgewählte Textfarbe der Datentabellen</cpGridTextSelecr.toolTip>
+		<cpGridBorder.toolTip>Rahmenfarbe der Datentabellen</cpGridBorder.toolTip>
+		<lblcolor8>Bildbeschriftungen:</lblcolor8>
+		<cpImage.toolTip>Textfarbe der Bildbeschriftungen und Vorschaubilder</cpImage.toolTip>
+		<msgStyleExsist>Stilname "{style}" bereits vorhanden</msgStyleExsist>
+		<vbxToolbar>Symbolleiste</vbxToolbar>
+		<lblList1>Anzeigen:</lblList1>
+		<lblList2>Ausblenden:</lblList2>
+		<btnHide.toolTip>Ausblenden</btnHide.toolTip>
+		<btnShow.toolTip>Anzeigen</btnShow.toolTip>
+		<btnHideAll.toolTip>Symbolleiste ausblenden</btnHideAll.toolTip>
+		<btnlocalclear>Lokalen Einstellungen löschen</btnlocalclear>
+		<btnlocal>Lokalen Einstellungen aktualisieren</btnlocal>
+		<msgRestart>Veränderungen gelten ab der nächsten Anmeldung</msgRestart>
+		<vbxSearchGrid>Suche</vbxSearchGrid>
+		<lblMultiScreenMode>Multi-Monitor-Modus:</lblMultiScreenMode>
+		<btnMultiScreenMode.toolTip>Unterstützung für mehrere Monitore aktivieren/deaktivieren</btnMultiScreenMode.toolTip>
+		<lblautologout>Automatische Abmeldung nach:</lblautologout>
+		<labDefaultviewer>Standard-Viewer:</labDefaultviewer>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Bild-Link (JPEG) kopieren</cmiImageLinkJPEG>
+		<cmiSaveImages>Bilder speichern...</cmiSaveImages>
+		<cmiCineMode>Kinomodus</cmiCineMode>
+	</DicomViewContextMenu>
+	<RegisterForm>
+		<msgInvalidSerial>Ungültige Seriennummer!</msgInvalidSerial>
+		<organizationLabel>Unternehmen</organizationLabel>
+		<serialLabel>Seriennummer</serialLabel>
+		<reloginlabel>Die Lizenz gilt ab der nächsten Anmeldung</reloginlabel>
+		<msgInvalidLicense>Ungültige Lizenzdaten.&#13;Bitte löschen Sie die Lizenzdatei, starten Sie den Client neu und versuchen Sie, sich erneut zu registrieren</msgInvalidLicense>
+		<btnRegister>Registrieren</btnRegister>
+		<msgAllFieldMustBeFilled>Alle Felder müssen ausgefüllt werden</msgAllFieldMustBeFilled>
+		<btnBuy>JETZT KAUFEN!</btnBuy>
+	</RegisterForm>
+	<Common>
+		<msgNoDataYes>JA</msgNoDataYes>
+		<msgNoDataNo>NEIN</msgNoDataNo>
+		<msgNoDataClose>Schließen</msgNoDataClose>
+		<btnOK>OK</btnOK>
+		<btnClose>Schließen</btnClose>
+		<btnCancel>Abbrechen</btnCancel>
+		<btnDelete>Löschen</btnDelete>
+		<msgWait>Bitte warten</msgWait>
+	</Common>
+	<PrintPage>
+		<title>Druckeinrichtung</title>
+		<toolTips>Seiteneinrichtung</toolTips>
+		<btnOK>OK</btnOK>
+		<btnCancel>Abbrechen</btnCancel>
+	</PrintPage>
+	<PluginView>
+		<btnRender>Rendern</btnRender>
+		<btnChange.toolTip>Ansicht ändern</btnChange.toolTip>
+		<btnClose>Schließen</btnClose>
+		<box1>Original</box1>
+		<box2>Gerendert</box2>
+	</PluginView>
+	<Upload>
+		<msgUploadProgress>Hochgeladen</msgUploadProgress>
+	</Upload>
+	<export>
+		<Unlimited>Unbegrenzt (einzelnes Volumen)</Unlimited>
+	</export>
+	<annotation>
+		<SaveAnnotationModal>*SAVE ANNOTATION</SaveAnnotationModal>
+		<Title>*Title</Title>
+		<Required>*Required</Required>
+		<msgRequiredFileds>*Required:{fields}</msgRequiredFileds>
+		<Description>*Description</Description>
+		<StoringType>*Storing type</StoringType>
+		<Save>*Save</Save>
+		<Error_1>*You can't create annotation, because you are using not original instance data.</Error_1>
+	</annotation>
+	<DicomLibrary>
+		<title>*SHARE FILES VIA DICOM LIBRARY</title>
+		<lbemailto>*Email to</lbemailto>
+		<lbemailfrom>*Email from</lbemailfrom>
+		<lbmessage>*Message</lbmessage>
+		<btnsend>*Send</btnsend>
+		<msgemialfrom>*Will receive email with view and management link to Dicom Library</msgemialfrom>
+		<msgemialto>*Will receive email with view link to Dicom Library</msgemialto>
+		<msginvalidemail>*Invalid email</msginvalidemail>
+		<lblDrop>*Drag and drop images here</lblDrop>
+		<lblSubject>*Subject</lblSubject>
+		<cbNotRobot>*I'm not a robot</cbNotRobot>
+		<lblWarning>*Use sensitive data at your own risk</lblWarning>
+		<msgRequestInLine>*The request was accepted and is waiting for its turn</msgRequestInLine>
+		<msgNoImage>*No image selected</msgNoImage>
+	</DicomLibrary>
+	<settings>
+		<logOutTimer>Automatische Abmeldung nach:</logOutTimer>
+	</settings>
+	<branding>
+		<errorValidateBranding>*Error: Branding file rebranding/rebranding_configuration.json is not valid</errorValidateBranding>
+	</branding>
+</languages>

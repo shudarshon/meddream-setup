@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body,
+html {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    height: 100%;
+    color: #fff;
+    background-color: #27272b;
+}
+
+.wrapper {
+    height: auto!important;
+    min-height: 100%;
+    margin: 0 auto -100px;
+}
+
+.footer {
+    font-size: .75em;
+    height: 100px;
+    padding-left: 50px;
+    color: #afafaf;
+}
+
+.loginButton {
+    font-size: 1.2em;
+    width: 280px;
+    height: 46px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e51b48;
+}
+
+.inputStyle,
+.styled-select {
+    width: 240px;
+    height: 45px;
+    border: none;
+}
+
+.loginButton:active,
+.loginButton:focus,
+.loginButton:hover {
+    color: #e51b48;
+    background-color: #fff;
+}
+
+.inputStyle {
+    font-size: 1em;
+    padding-left: 20px;
+    color: #fff;
+    background-color: #323237;
+}
+
+.styled-select {
+    overflow: hidden;
+    color: #afafaf;
+    background: #323237;
+}
+
+.form-space .inputStyle:focus,
+.inputImg {
+    background-color: #383842;
+}
+
+.inputImg svg {
+    width: 19px;
+    height: 19px;
+    fill: #d0d0d0;
+}
+
+.inputImg {
+    float: left;
+    padding: 11px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 290px;
+    height: 280px;
+    margin: -140px 0 0 -145px;
+}
+
+.form-space {
+    margin-bottom: 11px;
+}
+
+.md-logo {
+    float: left;
+    width: 10.625em;
+    margin-left: 0.625em;
+    height: 2.313em;
+    background-image: url(../img/product-logo.png);
+    background-repeat: no-repeat;
+}
+
+.md-logo div {
+    font-size: .8em;
+    margin-top: -5px;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 240px;
+    height: 45px;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    z-index: 1;
+    width: 100%;
+    height: 45px;
+    padding-right: 25px;
+    color: #fff!important;
+    border: none;
+    border-radius: 0;
+    background-color: #323237!important;
+}
+
+.bootstrap-select>.dropdown-toggle:active,
+.bootstrap-select>.dropdown-toggle:focus,
+.bootstrap-select>.dropdown-toggle:hover {
+    background-color: #383842!important;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.brand-logo {
+    float: left;
+    width: 5.625em;
+    margin: 0.313em 0;
+    height: 1.063em;
+    background-image: url(../img/brand-logo.png);
+    background-repeat: no-repeat;
+}
+.vertical-line {
+    border-left: 0.125em solid #414145;
+    width: 0.125em;
+    height: 1.5em;
+    float: left;
+    margin: 0 0.313em;
+}
+
+.logo-space {
+    margin-bottom: 25px;
+    min-height: 40px;
+}
+
+.errorMsg {
+    font-size: .75em;
+}
+
+.error {
+    color: #e51b48;
+}
+
+.caret {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(../img/arrow_icons.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    top: auto;
+    margin: 0;
+}
+.languagesSelection {
+	margin: 1em 1em;
+	float: right;
+}
+
+.btn-primary.active.focus, 
+.btn-primary.active:focus, 
+.btn-primary.active:hover, 
+.btn-primary.focus:active, 
+.btn-primary:active:focus, 
+.btn-primary:active:hover,
+.btn-primary:hover,
+.btn-primary.active, 
+.open > .dropdown-toggle.btn-primary.focus, 
+.open > .dropdown-toggle.btn-primary:focus, 
+.open > .dropdown-toggle.btn-primary:hover {
+    color: #fff;
+	background-color: #e51b48 !important;
+    border-color: #1d1d1d;
+
+
+ }
+ .btn-primary {
+ 	background-color: #383842;
+    border-color: #1d1d1d;
+    color: #fff;
+}

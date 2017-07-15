@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>ES</language>
+	<Main>
+		<btnLanguage>ES</btnLanguage>
+		<helpURL>locales/en/help.pdf</helpURL>
+		<btnSearch>Búsqueda</btnSearch>
+		<btnLogoff>Cierre la sesión</btnLogoff>
+	</Main>
+	<CustomWLForm>
+		<btnApply>Aplicar</btnApply>
+		<btnClose>Cerrar</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Búsqueda</title>
+		<titleLimitedViewAccess>Buscar (Limited Access Ver)</titleLimitedViewAccess>
+		<btnSearch>Búsqueda</btnSearch>
+		<popLabelPatientID>Paciente ID</popLabelPatientID>
+		<popSelectedPatientID>Paciente ID:</popSelectedPatientID>
+		<popLabelPatientName>Nombre del paciente</popLabelPatientName>
+		<popSelectedPatientName>Nombre del paciente:</popSelectedPatientName>
+		<popLabelStudyID>Estudio ID</popLabelStudyID>
+		<popSelectedStudyID>Estudio ID:</popSelectedStudyID>
+		<popLabelAccession>Adhesión Número</popLabelAccession>
+		<popSelectedAccession>Adhesión Número:</popSelectedAccession>
+		<popLabelDescription>Descripción</popLabelDescription>
+		<popSelectedDescription>Descripción:</popSelectedDescription>
+		<popLabelReferringPhysician>Médico remitente</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Médico remitente:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Médico Lectura</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Médico Lectura:</popSelectedReadingPhysician>
+		<cbToDate>To:</cbToDate>
+		<cbFromDate>De:</cbFromDate>
+		<btnToday>Hoy</btnToday>
+		<btnYesterday>Ayer</btnYesterday>
+		<btnModAll>Todos</btnModAll>
+		<btnModNone>Ningún</btnModNone>
+		<btnOpen>Abrir</btnOpen>
+		<btnCancel>Cancelar</btnCancel>
+		<listPatientID>Paciente ID</listPatientID>
+		<listPatientName>Nombre</listPatientName>
+		<listPatientBirthdate>Birthdate</listPatientBirthdate>
+		<listStudyID>Estudio Study ID</listStudyID>
+		<listAccession>Adhesión Número</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Descripción</listDescription>
+		<listDate>Fecha</listDate>
+		<listTime>Time</listTime>
+		<listDateTime>Time</listDateTime>
+		<listReviewed>Revisado</listReviewed>
+		<listReferringPhysician>Médico remitente</listReferringPhysician>
+		<listReadingPhysician>Médico Lectura</listReadingPhysician>
+		<listSourceAE>Source AE</listSourceAE>
+		<listReceivedOn>Received On</listReceivedOn>
+		<dayNames>S,M,T,W,T,F,S</dayNames>
+		<monthNames>Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre</monthNames>
+		<firstDayOfWeek>0</firstDayOfWeek>
+		<btnForwardStudy>Forward</btnForwardStudy>
+		<btnExportStudy>Export</btnExportStudy>
+		<cbAddStudy>Añadir</cbAddStudy>
+	</SearchForm>
+	<ReportForm>
+		<title>Report</title>
+		<lblStudyDateTime>Estudio Hora:</lblStudyDateTime>
+		<lblStudyID>Estudio ID:</lblStudyID>
+		<lblReportDateTime>Report Time:</lblReportDateTime>
+		<lblPatientID>Paciente ID:</lblPatientID>
+		<lblPatientName>Paciente Nombre:</lblPatientName>
+		<btnClose>Cerrar</btnClose>
+	</ReportForm>
+	<ForwardForm>
+		<title>Forward</title>
+		<lblPatientID>Paciente ID</lblPatientID>
+		<lblPatientName>Paciente Nombre</lblPatientName>
+		<lblStudyDate>Estudio Fecha</lblStudyDate>
+		<lblStudyTime>Estudio Time</lblStudyTime>
+		<lblStudyDescription>Estudio Descripción</lblStudyDescription>
+		<btnForwardTo>Reenviar a</btnForwardTo>
+		<btnClose>Cerrar</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Export</title>
+		<lblPatientID>Paciente ID</lblPatientID>
+		<lblPatientName>Paciente Nombre</lblPatientName>
+		<lblStudyDate>Estudio Fecha</lblStudyDate>
+		<lblStudyTime>Estudio Time</lblStudyTime>
+		<lblStudyDescription>Estudio Descripción</lblStudyDescription>
+		<btnExport>Export</btnExport>
+		<listName>Volumes</listName>
+		<listISO>ISO Image</listISO>
+		<listBurn>Burn</listBurn>
+		<btnDownloadISO>Download ISO</btnDownloadISO>
+		<btnBurnNow>Burn Now</btnBurnNow>
+		<btnClose>Cerrar</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Settings</title>
+		<cntDicomView>DICOM View</cntDicomView>
+		<cbAutoStartMultiFrame>AutoStart Multi-Frame Images</cbAutoStartMultiFrame>
+		<cntScreenLayout>Screen Layout</cntScreenLayout>
+		<lblScreenLayoutRows>Rows:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Columns:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Top Toolbar Width:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Thumbnails Position:</lblThumbnailsPosition>
+		<btnThumbnailsLeft.toolTip>Left</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Bottom</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Info Labels</cntInfoLabels>
+		<lblLeftSideInformation>Left Side Information</lblLeftSideInformation>
+		<lblRightSideInformation>Right Side Information</lblRightSideInformation>
+		<btnOK>OK</btnOK>
+		<btnCancel>Cancel</btnCancel>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Copy image link (JPEG)</cmiImageLinkJPEG>
+		<cmiSaveImages>Save Images...</cmiSaveImages>
+	</DicomViewContextMenu>
+</languages>

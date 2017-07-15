@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>RU</language>
+	<login>
+		<errorUsernamePassword>Ошибка: Пожалуйста, проверьте имя пользователя и пароль или обратитесь к  вашему системному администратору</errorUsernamePassword>
+		<errorObjNotFound1>объект</errorObjNotFound1>
+		<errorObjNotFound2>не найден</errorObjNotFound2>
+		<errorObjNotFound3>Попробуйте найти вручную после входа в систему</errorObjNotFound3>
+		<errorValidateConnect>Ошибка: Не удалось подключиться к базе данных для проверки ссылки HIS.&#13;&#13;Пожалуйста, обратитесь к системному администратору</errorValidateConnect>
+		<errorValidateQuery>Ошибка: запрос проверки ссылки HIS не удался.&#13;&#13;Пожалуйста, обратитесь к системному администратору</errorValidateQuery>
+		<errorTooManyFailures>Ошибка: слишком много неуспешных подключений, попытайтесть спустя {n} мин</errorTooManyFailures>
+		<missingExt>Ошибка: расширение PHP "{n}" не установлено</missingExt>
+		<missingExtMeddream>Ошибка: не установлен php_meddream.dll</missingExtMeddream>
+		<testWriteable>Ошибка: каталог MedDream недоступен для записи (код: {r})</testWriteable>
+		<testWriteableTemp>Ошибка: подкаталог 'temp' недоступен для записи (код: {r})</testWriteableTemp>
+		<testWriteableLog>Ошибка: подкаталог 'log' недоступен для записи (код: {r})</testWriteableLog>
+		<isTimezoneError>Ошибка: в php.ini не указан параметр date.timezone</isTimezoneError>
+		<oldPhpVersion>Ошибка: MedDream требует PHP 5.3.0 или выше (найдена версия {v})</oldPhpVersion>
+		<unsupportedCgi>Ошибка: PHP встроен в веб-сервер через "{s}" SAPI. Этот режим не поддерживается.</unsupportedCgi>
+	</login>
+	<Main>
+		<btnLanguage>RU</btnLanguage>
+		<helpURL>locales/ru/help.pdf</helpURL>
+		<btnSearch>Поиск</btnSearch>
+		<btnLogoff>Выход</btnLogoff>
+		<btnPlugin>Плагины</btnPlugin>
+		<btnChanels>Kаналы</btnChanels>
+		<btnMove>Рука</btnMove>
+		<btnZoom>Увеличить/Уменьшить</btnZoom>
+		<btnMeasure>Измерения</btnMeasure>
+		<btnMagnifinder>Лупа</btnMagnifinder>
+		<btnZoomAll>Уместить</btnZoomAll>
+		<btnZoom11>1:1</btnZoom11>
+		<btnTransform>Преобразовать</btnTransform>
+		<btnLockScroll>Lock</btnLockScroll>
+		<btnReferenceLines>Базовые линии</btnReferenceLines>
+		<btnScroll>Прокрутка</btnScroll>
+		<btnMultiImage11>1x1</btnMultiImage11>
+		<btnMultiImage22>2x2</btnMultiImage22>
+		<btnScreenLayout11>1x1</btnScreenLayout11>
+		<btnScreenLayout12>1x2</btnScreenLayout12>
+		<btnScreenLayout22>2x2</btnScreenLayout22>
+		<btnScreenLayout>Разбивка</btnScreenLayout>
+		<btnThumbnailsPosition>Миниатюры</btnThumbnailsPosition>
+		<btnPrint>Напечатать</btnPrint>
+		<btnForward>Отправить</btnForward>
+		<btnBurn>Записать</btnBurn>
+		<btnDownload>Сохранить</btnDownload>
+		<btnReset>Сброс</btnReset>
+		<btnAnnotation>i</btnAnnotation>
+		<btnmpr>MPR</btnmpr>
+		<btnCine>Cine</btnCine>
+		<btnFilter>Фильтр 1</btnFilter>
+		<btnoriginal>Оригинал</btnoriginal>
+		<btncompare>Сравнить ЭКГ</btncompare>
+		<btnbanpassfilter>50 Гц</btnbanpassfilter>
+		<btnSettings>Настройки</btnSettings>
+		<btnInfo>О программе</btnInfo>
+		<btnHelp>Помощь</btnHelp>
+		<btnFullScreen>Полноэкранный</btnFullScreen>
+		<btnClose>Закрыть</btnClose>
+		<btnWL>Уровень яркости</btnWL>
+		<btnWL.toolTip>Ширина/Уровень окна (W)</btnWL.toolTip>
+		<btnMove.toolTip>Рука (H)</btnMove.toolTip>
+		<btnZoom.toolTip>Увеличить/Уменьшить (+/-)</btnZoom.toolTip>
+		<btnMeasure.toolTip>Измерения</btnMeasure.toolTip>
+		<btnMagnifinder.toolTip>Лупа (M)</btnMagnifinder.toolTip>
+		<btnZoomAll.toolTip>Уместить на экране (2)</btnZoomAll.toolTip>
+		<btnZoom11.toolTip>Увеличение 1:1 (1)</btnZoom11.toolTip>
+		<btnTransform.toolTip>Преобразование</btnTransform.toolTip>
+		<btnLockScroll.toolTip>Одиночная прокрутка</btnLockScroll.toolTip>
+		<btnScroll.toolTip>Разрешить прокрутку</btnScroll.toolTip>
+		<btnReferenceLines.toolTip>Базовые линии</btnReferenceLines.toolTip>
+		<btnNotes.toolTip>Отчёт</btnNotes.toolTip>
+		<btnMultiImage11.toolTip>Группа изобр. 1x1</btnMultiImage11.toolTip>
+		<btnMultiImage22.toolTip>Группа изобр. 2x2</btnMultiImage22.toolTip>
+		<btnScreenLayout11.toolTip>Разбивка экрана 1x1</btnScreenLayout11.toolTip>
+		<btnScreenLayout12.toolTip>Разбивка экрана 1x2</btnScreenLayout12.toolTip>
+		<btnScreenLayout22.toolTip>Разбивка экрана 2x2</btnScreenLayout22.toolTip>
+		<btnScreenLayout.toolTip>Разбивка экрана</btnScreenLayout.toolTip>
+		<btnThumbnailsPosition.toolTip>Миниатюры слева/внизу</btnThumbnailsPosition.toolTip>
+		<btnForward.toolTip>Отправить</btnForward.toolTip>
+		<btnBurn.toolTip>Записать на CD/DVD</btnBurn.toolTip>
+		<btnPrint.toolTip>Напечатать</btnPrint.toolTip>
+		<btnReports.toolTip>Отчёты</btnReports.toolTip>
+		<btnSettings.toolTip>Настройки</btnSettings.toolTip>
+		<btnInfo.toolTip>О программе</btnInfo.toolTip>
+		<btnHelp.toolTip>Помощь (F1)</btnHelp.toolTip>
+		<btnFullScreen.toolTip>Полноэкранный</btnFullScreen.toolTip>
+		<btnPlugin.toolTip>Плагины</btnPlugin.toolTip>
+		<btnChanels.toolTip>Кaналы RGB</btnChanels.toolTip>
+		<btnCine.toolTip>Режим Cine</btnCine.toolTip>
+		<btntags.toolTip>Показать метаданные DICOM-файла</btntags.toolTip>
+		<windowingDefault>По умолчанию</windowingDefault>
+		<windowingAuto>Автоматический</windowingAuto>
+		<windowingAbdomen>Живот</windowingAbdomen>
+		<windowingBone>Кость</windowingBone>
+		<windowingCerebrum>Мозг</windowingCerebrum>
+		<windowingLiver>Печень</windowingLiver>
+		<windowingLung>Лёгкие</windowingLung>
+		<windowingMediastinum>Средостение</windowingMediastinum>
+		<windowingPelvis>Таз</windowingPelvis>
+		<windowingPosteriorFossa>Задняя черепная ямкa</windowingPosteriorFossa>
+		<windowingInvert>Инвертировать (I)</windowingInvert>
+		<msgImage>изображение</msgImage>
+		<msgNoLicense>Лицензия не найдена</msgNoLicense>
+		<msgConnectionLost>Потеря связи!</msgConnectionLost>
+		<msgCantConnect>Не удаётся подключиться!</msgCantConnect>
+		<msgLicenseSupportOneCon>Лицензия {product} поддерживает только одну программу на сервере</msgLicenseSupportOneCon>
+		<msgLicenseError>Ошибка лицензии</msgLicenseError>
+		<msgError>Ошибка</msgError>
+		<msgInstallError>Ошибка установки</msgInstallError>
+		<msgXmlError>Ошибка: неправильный синтаксис файла settings.xml</msgXmlError>
+		<msgMdVersionMismatch>Неверная версия .swf-файла {product}</msgMdVersionMismatch>
+		<msgMdVersionOld>Пожалуйста, обновите вашу лицензию для использования новой версии ПО</msgMdVersionOld>
+		<msgMdLicenseOld>Кончился срок действия лицензии</msgMdLicenseOld>
+		<msgMdManyUsers>Слишком много пользователей&#13;Пожалуйста, подождите несколько минут и попробуйте снова</msgMdManyUsers>
+		<msgMdLicenseBad>Лицензия недействительна</msgMdLicenseBad>
+		<msgNoReport>Отчёт не существует</msgNoReport>
+		<transformDataProvider1>Повернуть вправо</transformDataProvider1>
+		<transformDataProvider2>Повернуть влево</transformDataProvider2>
+		<transformDataProvider4>Отразить горизонтально</transformDataProvider4>
+		<transformDataProvider5>Отразить вертикально</transformDataProvider5>
+		<measureDataProvider1>Линия</measureDataProvider1>
+		<measureDataProvider2>Показывать углы пересечения</measureDataProvider2>
+		<measureDataProvider3>Угoл</measureDataProvider3>
+		<measureDataProvider4>Полилиния</measureDataProvider4>
+		<measureDataProvider5>Площадь</measureDataProvider5>
+		<measureDataProvider6>Объём</measureDataProvider6>
+		<measureDataProvider7>Калибровка</measureDataProvider7>
+		<measureDataProvider8>Интенсивность</measureDataProvider8>
+		<measureDataProvider9>Удалить измерения</measureDataProvider9>
+		<measureDataProvider10>Угол Кобба</measureDataProvider10>
+		<measureDataProvider11>Точки</measureDataProvider11>
+		<measureDataProvider12>Сохранить аннотацию</measureDataProvider12>
+		<measureDataProvider15>Норберг Угол</measureDataProvider15>
+		<measureDataProvider16>Текст</measureDataProvider16>
+		<measureDataProviderECG1>Измерения (mV, s)</measureDataProviderECG1>
+		<measureDataProviderECG2>Точки QT (RR, QT, QTc)</measureDataProviderECG2>
+		<print>Печатать</print>
+		<printwithimages>Печатать с картинками</printwithimages>
+		<printSeries>Печатать серию</printSeries>
+		<printDicom>Печатать DICOM</printDicom>
+		<chanelDefault>По умолчанию</chanelDefault>
+		<chanelRed>Красный</chanelRed>
+		<chanelGreen>Зелёный</chanelGreen>
+		<chanelBlue>Синий</chanelBlue>
+		<chanelRedGreen>Красный, зелёный</chanelRedGreen>
+		<chanelRedBlue>Красный, синий</chanelRedBlue>
+		<chanelGreenBlue>Зелёный, синий</chanelGreenBlue>
+		<msgUpload>Загрузить</msgUpload>
+		<cbfilter>Включить/выключить фильтр 1</cbfilter>
+		<cbsmooth>Включить/выключить сглаживание</cbsmooth>
+		<mprwarning>Срез может быть неправильным из-за различных изображений!</mprwarning>
+		<msginvalidframes>Неправильный диапазон кадров!</msginvalidframes>
+		<msgclosestudies>Закрыть обследования</msgclosestudies>
+		<btnReset.toolTip>Сброс</btnReset.toolTip>
+		<savedpresentationstateerror>*Error sending dicom, please see the log</savedpresentationstateerror>
+		<savedpresentationstate>*Measurements saved to&#13;Presentation State DICOM (modality=PR)</savedpresentationstate>
+		<btnFilter.toolTip>*Show or hide filtered ECG data</btnFilter.toolTip>
+		<btnoriginal.toolTip>*Show or hide not filtered ECG data</btnoriginal.toolTip>
+		<btncompare.toolTip>*Compare ECG data</btncompare.toolTip>
+		<cbscompare>*Compare</cbscompare>
+		<msgnoecgdataselected>*No ECG data selected</msgnoecgdataselected>
+		<btnbanpassfilter.toolTip>*Add or remove 50/60 Hz filter</btnbanpassfilter.toolTip>
+		<btnsenddicomlibrary>Поделиться</btnsenddicomlibrary>
+		<btnsenddicomlibrary.toolTip>Поделиться файлами через Dicom Library</btnsenddicomlibrary.toolTip>
+	</Main>
+	<SaveImagesForm>
+		<group1>Формат</group1>
+		<group2>Сохранить объект</group2>
+		<rbSaveImage>Картину/Видео</rbSaveImage>
+		<rbSaveSeries>Активную серию</rbSaveSeries>
+		<rbSaveStudy>Активное обследование</rbSaveStudy>
+		<msgCollecting>СБОР ИНФОРМАЦИИ</msgCollecting>
+		<msgDownloading>СКАЧИВАНИЕ</msgDownloading>
+		<msgDownloadCancel>СКАЧИВАНИЕ ОТМЕНЕНО</msgDownloadCancel>
+		<msgDownloadComplete>СКАЧИВАНИЕ ЗАВЕРШЕНО</msgDownloadComplete>
+		<title>СОХРАНИТЬ</title>
+		<btnSave>Сохранить</btnSave>
+	</SaveImagesForm>
+	<AboutForm>
+		<title>О программе</title>
+		<msgunlimited>Неограничено</msgunlimited>
+		<lblconnection>Oдновременных подключений:</lblconnection>
+		<msgconnections>Подключены:</msgconnections>
+		<lbllicenseto>Лицензировано для:</lbllicenseto>
+		<lblvalidto>Срок действия:</lblvalidto>
+		<lblupdateto>Обновления до:</lblupdateto>
+		<lblversion>Версия:</lblversion>
+		<lblcontacts>Контакты:</lblcontacts>
+		<lblmdc>Класс медицинского прибора:</lblmdc>
+		<lblmodule>Модули:</lblmodule>
+		<btnOK>OK</btnOK>
+		<lblproduct>Продукт:</lblproduct>
+		<guiversion>Версия интерфейсa пользователя:</guiversion>
+		<lblReleaseDate>Дата выпуска:</lblReleaseDate>
+		<notified>ID уведомленнoй организации:</notified>
+		<msgoutofdate>(версия устарела)</msgoutofdate>
+		<msguptodate>(последняя версия)</msguptodate>
+		<msgusernewversion>Для новой версии, пожалуйста,&#13;обратитесь к системному&#13;администратору</msgusernewversion>
+		<msgrootnewversion>Получите последнюю версию на link{www.softneta.com} или,&#13;если вы хотите узнать больше о новых версиях,&#13;можете написать по электронной почте:&#13;email{info@softneta.com}</msgrootnewversion>
+		<msglicenseistoold>Ваша лицензия слишком стара для&#13;этого обновления, свяжитесь с&#13;email{info@softneta.com} для текущих цен.</msglicenseistoold>
+		<lblmanufactured>Производитель:</lblmanufactured>
+		<lblFda>Разрешение FDA:</lblFda>
+		<lblFdatext>Распространять для целей диагностики K162011 (класс устройствa: 2)</lblFdatext>
+	</AboutForm>
+	<CustomWLForm>
+		<btnApply>Применить</btnApply>
+		<btnClose>Закрыть</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Поиск</title>
+		<titleLimitedViewAccess>Поиск (Ограниченный доступ)</titleLimitedViewAccess>
+		<btnSearch>Поиск</btnSearch>
+		<popLabelPatientID>ID пациента</popLabelPatientID>
+		<popSelectedPatientID>ID пациента:</popSelectedPatientID>
+		<popLabelPatientName>Имя пациента</popLabelPatientName>
+		<popSelectedPatientName>Имя пациента:</popSelectedPatientName>
+		<popLabelStudyID>ID обследования</popLabelStudyID>
+		<popSelectedStudyID>ID обследования:</popSelectedStudyID>
+		<popLabelAccession>Accession Number</popLabelAccession>
+		<popSelectedAccession>Accession Number:</popSelectedAccession>
+		<popLabelDescription>Описание</popLabelDescription>
+		<popSelectedDescription>Описание:</popSelectedDescription>
+		<popLabelReferringPhysician>Направляющий врач</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Направляющий врач:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Проводящий анализ врач</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Проводящий анализ врач:</popSelectedReadingPhysician>
+		<cbToDate>До:</cbToDate>
+		<cbFromDate>От:</cbFromDate>
+		<btnToday>Сегодня</btnToday>
+		<btnYesterday>Вчера</btnYesterday>
+		<btnModAll>Все</btnModAll>
+		<btnModNone>Ни одна</btnModNone>
+		<btnOpen>Открыть</btnOpen>
+		<btnCancel>Отменить</btnCancel>
+		<listPatientID>ID пациента</listPatientID>
+		<listPatientName>Имя</listPatientName>
+		<listPatientBirthdate>Дата рождения</listPatientBirthdate>
+		<listStudyID>ID обследования</listStudyID>
+		<listAccession>Accession Number</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Описание</listDescription>
+		<listDate>Дата</listDate>
+		<listTime>Время</listTime>
+		<listDateTime>Время</listDateTime>
+		<listReviewed>Просмотрено</listReviewed>
+		<listReferringPhysician>Направляющий врач</listReferringPhysician>
+		<listReadingPhysician>Проводящий анализ врач</listReadingPhysician>
+		<listSourceAE>Source AE</listSourceAE>
+		<listReceivedOn>Дата получения</listReceivedOn>
+		<dayNames>В,П,В,С,Ч,П,С</dayNames>
+		<monthNames>Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь</monthNames>
+		<firstDayOfWeek>1</firstDayOfWeek>
+		<btnForwardStudy>Отправить</btnForwardStudy>
+		<btnExportStudy>Экспортировать</btnExportStudy>
+		<cbAddStudy>Добавить</cbAddStudy>
+		<lblInfo>Найдено слишком много записей</lblInfo>
+		<msgInfoNoItems>Ничего не найдено</msgInfoNoItems>
+	</SearchForm>
+	<medreport>
+		<pnlTemplates>ШАБЛОНЫ</pnlTemplates>
+		<btnInsertTemplate>Вставить &gt;&gt;</btnInsertTemplate>
+		<btnNewTemplate>Добавить</btnNewTemplate>
+		<btnEditTemplate>Изменить</btnEditTemplate>
+		<btnDeleteTemplate>Удалить</btnDeleteTemplate>
+		<pnlReport>ОТЧЁТ</pnlReport>
+		<lblStudyTime>Время обследования:</lblStudyTime>
+		<lblReportTime>Время отчёта:</lblReportTime>
+		<btnEdit>Редактировать</btnEdit>
+		<btnSave>Сохранить</btnSave>
+		<btnPrint>Печатать</btnPrint>
+		<btnAddTemplate>&lt;&lt; Добавить шаблон</btnAddTemplate>
+		<lblStudyIDValue>ID обследования:</lblStudyIDValue>
+		<lblPatientIDValue>ID пациента:</lblPatientIDValue>
+		<lblPatientNameValue>Имя, фамилия:</lblPatientNameValue>
+		<lblPatientBirthDateValue>Дата рождения:</lblPatientBirthDateValue>
+		<lblStudyPhysicianValue>Врач:</lblStudyPhysicianValue>
+		<lblPatientHistoryValue>История:</lblPatientHistoryValue>
+		<msgDeleteTemplate>Шаблон будет удалён. Вы действительно хотите удалить шаблон?</msgDeleteTemplate>
+		<msgReplaceReport>Отчёт будет заменён выбранным шаблоном. Вы действительно хотите заменить отчёт?</msgReplaceReport>
+		<yesAlertLabel>Да</yesAlertLabel>
+		<noAlertLabel>Нет</noAlertLabel>
+		<btnUpload.toolTip>Загрузить</btnUpload.toolTip>
+		<btnDownload.toolTip>Скачать</btnDownload.toolTip>
+		<btnDelete.toolTip>Удалить</btnDelete.toolTip>
+		<msgDelete>Удалить "{item}"?</msgDelete>
+	</medreport>
+	<TemplateForm>
+		<title>Шаблон</title>
+		<lblGroupName>Группа шаблонов:</lblGroupName>
+		<lblName>Название:</lblName>
+		<selectGroup>Выберите группу</selectGroup>
+		<btnOk>Сохранить</btnOk>
+		<btnCancel>Отменить</btnCancel>
+		<TemplateNameError>Имя шаблона не может быть пустым</TemplateNameError>
+	</TemplateForm>
+	<ReportForm>
+		<title>Отчёт</title>
+		<lblStudyDateTime>Время обследования:</lblStudyDateTime>
+		<lblStudyID>ID обследования:</lblStudyID>
+		<lblReportDateTime>Время отчёта:</lblReportDateTime>
+		<lblPatientID>ID пациента:</lblPatientID>
+		<lblPatientName>Имя пациента:</lblPatientName>
+		<btnClose>Закрыть</btnClose>
+	</ReportForm>
+	<HeaderButtons>
+		<msgNoteButtonWrite>Писать отчёт</msgNoteButtonWrite>
+		<msgNoteButtonEdit>Редактировать отчёт</msgNoteButtonEdit>
+		<msgNoteButtonView>Смотреть отчёт</msgNoteButtonView>
+		<msgPatient>Пациент</msgPatient>
+		<btnStudyRefresh>Обследование было обновлено - обновить</btnStudyRefresh>
+	</HeaderButtons>
+	<ForwardForm>
+		<title>Отправить</title>
+		<lblPatientID>ID пациента</lblPatientID>
+		<lblPatientName>Имя пациента</lblPatientName>
+		<lblStudyDate>Дата</lblStudyDate>
+		<lblStudyTime>Время</lblStudyTime>
+		<lblStudyDescription>Описание</lblStudyDescription>
+		<btnForwardTo>Отправить на</btnForwardTo>
+		<btnClose>Закрыть</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Экспортировать</title>
+		<lblPatientID>ID пациента</lblPatientID>
+		<lblPatientName>Имя пациента</lblPatientName>
+		<lblStudyDate>Дата</lblStudyDate>
+		<lblStudyTime>Время</lblStudyTime>
+		<lblStudyDescription>Описание</lblStudyDescription>
+		<btnExport>Экспортировать</btnExport>
+		<listName>Диск</listName>
+		<listISO>Файл ISO</listISO>
+		<listBurn>Записать</listBurn>
+		<btnDownloadISO>Скачать ISO</btnDownloadISO>
+		<btnBurnNow>Записать CD/DVD</btnBurnNow>
+		<btnClose>Закрыть</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Настройки</title>
+		<cntDicomView>Просмотр</cntDicomView>
+		<cbAutoStartMultiFrame>Автоматически проигрывать Multi-Frame</cbAutoStartMultiFrame>
+		<cntScreenLayout>Разбивка экрана</cntScreenLayout>
+		<lblScreenLayoutRows>Строки:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Столбцы:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Высота панели инструментов:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Место миниатюр:</lblThumbnailsPosition>
+		<lblThumbnailsLeftSize>Размер серии вертикальной&#13; панели миниатюр:</lblThumbnailsLeftSize>
+		<lblThumbnailsBottomSize>Размер серии горизонтальной&#13; панели миниатюр:</lblThumbnailsBottomSize>
+		<btnThumbnailsLeft.toolTip>Слева</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Внизу</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Инф. надписи</cntInfoLabels>
+		<lblLeftSideInformation>Информация слева</lblLeftSideInformation>
+		<lblRightSideInformation>Информация справа</lblRightSideInformation>
+		<lblInfolabelsSize>Размер шрифта (13 по умолчанию), если&#13;изображение больше чем:</lblInfolabelsSize>
+		<vbxStyle>Стиль</vbxStyle>
+		<btnOK>OK</btnOK>
+		<btnCancel>Отмена</btnCancel>
+		<lblAutoOpenFirstImage>Открывать первое изображение:</lblAutoOpenFirstImage>
+		<rbAutoOpenNo>Нет</rbAutoOpenNo>
+		<rbAutoOpenSingle>Если единственное</rbAutoOpenSingle>
+		<rbAutoOpenAlways>Всегда</rbAutoOpenAlways>
+		<cbStreaming>Поточный DICOM (загрузить все изображения)</cbStreaming>
+		<lblThumbnailsSize>Размер миниатюр:</lblThumbnailsSize>
+		<lblThumbnailsSingleClick>Единичный щелчок на мин.:</lblThumbnailsSingleClick>
+		<btnThumbnailsSingleClick.toolTip>Открытие изображения единичным щелчком на миниатюре</btnThumbnailsSingleClick.toolTip>
+		<lblReports>Отчёты:</lblReports>
+		<lblScreenLayoutScale>Масштаб:</lblScreenLayoutScale>
+		<lblurl>URL для MedReport:</lblurl>
+		<lblReportPosition>Место MedReport:</lblReportPosition>
+		<btnReportsMax.toolTip>Открыть макс. величины</btnReportsMax.toolTip>
+		<btnReportsLeft.toolTip>Открыть слева</btnReportsLeft.toolTip>
+		<btnReportsCenter.toolTip>Открыть в центре</btnReportsCenter.toolTip>
+		<btnReportsRight.toolTip>Открыть справа</btnReportsRight.toolTip>
+		<lblReportPopup>Открыть отдельно:</lblReportPopup>
+		<btnReportsPopup.toolTip>Открыть в отдельном окне</btnReportsPopup.toolTip>
+		<lblStyle>Шаблоны стиля:</lblStyle>
+		<btnDeleteStyles>Удалить</btnDeleteStyles>
+		<lblStyleName>Название стиля:</lblStyleName>
+		<btnStylesUpdate>Переименовать</btnStylesUpdate>
+		<lblcolor1>Кнопки:</lblcolor1>
+		<cpBut1.toolTip>Верхний цвет кнопки</cpBut1.toolTip>
+		<cpBut2.toolTip>Нижний цвет кнопки</cpBut2.toolTip>
+		<cpButTheme.toolTip>Цвет темы кнопки</cpButTheme.toolTip>
+		<cpButText.toolTip>Цвет текста кнопки</cpButText.toolTip>
+		<lblcolor2>Отмеченные кнопки:</lblcolor2>
+		<cpButSelec1.toolTip>Верхний цвет отмеченной кнопки</cpButSelec1.toolTip>
+		<cpButSelec2.toolTip>Нижний цвет отмеченной кнопки</cpButSelec2.toolTip>
+		<cpButThemeSelec.toolTip>Цвет темы отмеченной кнопки</cpButThemeSelec.toolTip>
+		<cpButTextSelec.toolTip>Цвет текста отмеченной кнопки</cpButTextSelec.toolTip>
+		<lblcolor3>Фоны:</lblcolor3>
+		<cpMainBg.toolTip>Цвет фона окна</cpMainBg.toolTip>
+		<cpContentbg.toolTip>Цвет внутреннего фона окна</cpContentbg.toolTip>
+		<cpBorderBg.toolTip>Цвет рамки окна</cpBorderBg.toolTip>
+		<lblcolor4>Названия:</lblcolor4>
+		<cpLabel.toolTip>Цвет названий</cpLabel.toolTip>
+		<lblcolor5>Поля ввода:</lblcolor5>
+		<cpInput.toolTip>Цвет текста поля ввода</cpInput.toolTip>
+		<cpInputBg.toolTip>Цвет фона поля ввода</cpInputBg.toolTip>
+		<lblcolor6>Меню:</lblcolor6>
+		<cpMenuText.toolTip>Цвет текста меню</cpMenuText.toolTip>
+		<cpMenuBorder.toolTip>Цвет рамки меню</cpMenuBorder.toolTip>
+		<cpMenuTheme.toolTip>Цвет темы меню</cpMenuTheme.toolTip>
+		<cpMenuBg.toolTip>Цвет фона меню</cpMenuBg.toolTip>
+		<lblcolor7>Списки:</lblcolor7>
+		<cpGrid1.toolTip>Цвет первой линии списка</cpGrid1.toolTip>
+		<cpGrid2.toolTip>Цвет второй линии списка</cpGrid2.toolTip>
+		<cpGridselect.toolTip>Цвет отмеченной линии списка</cpGridselect.toolTip>
+		<cpGridRol.toolTip>Цвет строки списка под курсором мыши</cpGridRol.toolTip>
+		<cpGridText.toolTip>Цвет текста списка</cpGridText.toolTip>
+		<cpGridTextSelecr.toolTip>Цвет отмеченного текста списка</cpGridTextSelecr.toolTip>
+		<cpGridBorder.toolTip>Цвет рамки списка</cpGridBorder.toolTip>
+		<lblcolor8>Надписи изображений:</lblcolor8>
+		<cpImage.toolTip>Цвет текста на миниатюрах и на открытом изображении</cpImage.toolTip>
+		<msgStyleExsist>Стиль "{style}" уже существует</msgStyleExsist>
+		<vbxToolbar>Панель инструментов</vbxToolbar>
+		<lblList1>Показывать:</lblList1>
+		<lblList2>Скрыть:</lblList2>
+		<btnHide.toolTip>Скрыть</btnHide.toolTip>
+		<btnShow.toolTip>Показывать</btnShow.toolTip>
+		<btnHideAll.toolTip>Скрыть панель инструментов</btnHideAll.toolTip>
+		<btnlocalclear>Очистить локальные настройки</btnlocalclear>
+		<btnlocal>Обновить локальные настройки</btnlocal>
+		<msgRestart>Изменения вступят в силу&#13;co следующего входа</msgRestart>
+		<vbxSearchGrid>Поиск</vbxSearchGrid>
+		<lblMultiScreenMode>Режим нескольких мониторов:</lblMultiScreenMode>
+		<btnMultiScreenMode.toolTip>Включить/выключить поддержку нескольких мониторов</btnMultiScreenMode.toolTip>
+		<lblautologout>Автоматический конец сеанса через:</lblautologout>
+		<labDefaultviewer>Просмотр по умолчанию:</labDefaultviewer>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Копировать ссылку на JPEG</cmiImageLinkJPEG>
+		<cmiSaveImages>Сохранить...</cmiSaveImages>
+		<cmiCineMode>Режим Cine</cmiCineMode>
+	</DicomViewContextMenu>
+	<RegisterForm>
+		<msgInvalidSerial>Неверный серийный номер!</msgInvalidSerial>
+		<organizationLabel>Организация:</organizationLabel>
+		<serialLabel>Серийный номер:</serialLabel>
+		<reloginlabel>Лицензия будет применена со следующего входа</reloginlabel>
+		<msgInvalidLicense>Неверные данные лицензии.&#13;Пожалуйста, удалите файл лицензии, перезапустите программу и попытайтесь снова зарегистрироваться</msgInvalidLicense>
+		<btnRegister>Регистрироваться</btnRegister>
+		<msgAllFieldMustBeFilled>Все поля должны быть заполнены</msgAllFieldMustBeFilled>
+		<btnBuy>КУПИТЬ СЕЙЧАС!</btnBuy>
+	</RegisterForm>
+	<Common>
+		<msgNoDataYes>ДА</msgNoDataYes>
+		<msgNoDataNo>НЕТ</msgNoDataNo>
+		<msgNoDataClose>Закрыть</msgNoDataClose>
+		<btnOK>OK</btnOK>
+		<btnClose>Закрыть</btnClose>
+		<btnCancel>Отменить</btnCancel>
+		<btnDelete>Удалить</btnDelete>
+		<msgWait>Подождите</msgWait>
+	</Common>
+	<PrintPage>
+		<title>Настройки печати</title>
+		<toolTips>Разбивка страницы</toolTips>
+		<btnOK>OK</btnOK>
+		<btnCancel>Отменить</btnCancel>
+	</PrintPage>
+	<PluginView>
+		<btnRender>Обработать</btnRender>
+		<btnChange.toolTip>Изменить представление</btnChange.toolTip>
+		<btnClose>Закрыть</btnClose>
+		<box1>Исходный</box1>
+		<box2>Обработанный</box2>
+	</PluginView>
+	<Upload>
+		<msgUploadProgress>Загружено</msgUploadProgress>
+	</Upload>
+	<export>
+		<Unlimited>Неограниченный (один диск)</Unlimited>
+	</export>
+	<annotation>
+		<SaveAnnotationModal>СОХРАНИТЬ АННОТАЦИИ</SaveAnnotationModal>
+		<Title>Название</Title>
+		<Required>Oбязательно</Required>
+		<msgRequiredFileds>Oбязательно:{fields}</msgRequiredFileds>
+		<Description>Oписание</Description>
+		<StoringType>Тип хранения</StoringType>
+		<Save>Сохранить</Save>
+		<Error_1>Вы не можете создать аннотацию, так как используются не оригинальные данные обследования.</Error_1>
+	</annotation>
+	<DicomLibrary>
+		<title>ПОДЕЛИТЬСЯ ФАЙЛАМИ ЧЕРЕЗ DICOM LIBRARY</title>
+		<lbemailto>Электронная почта Для</lbemailto>
+		<lbemailfrom>Электронная почта От</lbemailfrom>
+		<lbmessage>Письмо</lbmessage>
+		<btnsend>Отправить</btnsend>
+		<msgemialfrom>Получит электронную почту со ссылкой на просмотр исследования и со ссылкой на управление исследованием в Dicom Library</msgemialfrom>
+		<msgemialto>Получит электронную почту со ссылкой на просмотр исследования в Dicom Library</msgemialto>
+		<msginvalidemail>Неверный адрес электронной почты</msginvalidemail>
+		<lblDrop>Перетащите изображения сюда</lblDrop>
+		<lblSubject>Предмет</lblSubject>
+		<cbNotRobot>Я не робот</cbNotRobot>
+		<lblWarning>Используйте конфиденциальные данные на свой страх и риск</lblWarning>
+		<msgRequestInLine>Запрос был принят и ждёт своей очереди</msgRequestInLine>
+		<msgNoImage>Изображение не выбрано</msgNoImage>
+	</DicomLibrary>
+	<settings>
+		<logOutTimer>Автоматический конец сеанса через:</logOutTimer>
+	</settings>
+	<branding>
+		<errorValidateBranding>Ошибка: плохой брендинг файл rebranding/rebranding_configuration.json</errorValidateBranding>
+	</branding>
+</languages>

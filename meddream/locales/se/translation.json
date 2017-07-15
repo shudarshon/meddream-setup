@@ -1,0 +1,29 @@
+{
+    "login": {
+        "Database": "Databas",
+        "Username": "Användarnamn",
+        "Password": "Lösenord",
+        "Login": "Logga in"
+    },
+    "viewer": {
+        "Search": "Sök"
+    },
+    "export": {
+        "DownloadIso": "Download ISO",
+        "BurnIso": "Burn Now"
+    },
+    "settings": {
+        "Rows": "Rows:",
+        "Columns": "Columns:",
+        "ToolbarWidth": "Top Toolbar Width:",
+        "Left": "Left",
+        "Bottom": "Bottom",
+        "LeftSideLabels": "Left Side Information",
+        "RightSideLabels": "Right Side Information",
+        "autoStartMultiFrame": "AutoStart Multi-Frame Images",
+        "InfoLabelsProperties": "Info Labels"
+    },
+    "toolbar": {
+        "Search": "Sök"
+    }
+}

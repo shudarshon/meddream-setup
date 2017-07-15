@@ -1,0 +1,69 @@
+/*!
+* jQuery Mobile Datepicker Wrapper 1.4.2
+http://uglymongrel.com.com
+*
+* Copyright Alexander Schmitz and other contributors
+* Released under the MIT license.
+* http://uglymongrel.com.org/license
+*
+*/
+
+/* Globals */
+.ui-datepicker,
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev {
+	/* ui-shadow */
+	-webkit-box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
+	-moz-box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
+	box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
+}
+/* Swatches */
+/* A
+-----------------------------------------------------------------------------------------------------------*/
+html .ui-overlay-a .ui-datepicker td span,
+html .ui-overlay-a .ui-datepicker a,
+html .ui-body-a .ui-datepicker td span,
+html .ui-body-a .ui-datepicker a,
+.ui-page-theme-a .ui-datepicker td span,
+.ui-page-theme-a .ui-datepicker a {
+	/* ui-btn-a */
+	background-color: #f6f6f6 /*{a-bup-background-color}*/;
+	border-color: #ddd /*{a-bup-border}*/;
+	color: #333 /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #f3f3f3 /*{a-bup-shadow-color}*/;
+}
+html body .ui-datepicker .ui-state-highlight {
+	/* ui-btn-down */
+	background-color: #454545 /*{a-bdown-background-color}*/;
+	border-color: #000 /*{a-bdown-border}*/;
+	color: #3388cc /*{a-bdown-color}*/;
+
+}
+html body .ui-datepicker .ui-state-active {
+	/* ui-btn-active */
+	background-color: #3388cc /*{a-active-background-color}*/;
+	border-color: #3388cc /*{a-active-border}*/;
+	color: #fff /*{a-active-color}*/;
+
+}
+.ui-datepicker td,
+.ui-datepicker .ui-datepicker-header {
+	/* ui-body-a */
+	border-color: #252525 /*{a-body-border}*/;
+	background-color: #333333 /*{a-body-background-color}*/;
+	color: #ffffff /*{a-body-color}*/;
+
+}
+
+.ui-datepicker th {
+	/* ui-bar-a */
+	background-color: #333333 /*{a-bar-background-color}*/;
+	border-color: #252525 /*{a-bar-border}*/;
+	color: #ffffff /*{a-bar-color}*/;
+	font-weight: bold;
+}
+
+.ui-datepicker-header {
+    border-color: #000;
+
+}

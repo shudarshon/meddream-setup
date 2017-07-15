@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language>FI</language>
+	<login>
+		<errorUsernamePassword>Virhe: Tarkista käyttäjänimesi ja salasana</errorUsernamePassword>
+		<errorObjNotFound1>kohdetta</errorObjNotFound1>
+		<errorObjNotFound2>ei löydy</errorObjNotFound2>
+		<errorObjNotFound3>Voit etsiä sitä sisäänkirjautumisen jälkeen</errorObjNotFound3>
+		<errorValidateConnect>Virhe: Tietokantaa ei voida yhdistää HIS-link-validoinnin tekemiseksi.&#13;&#13;Ota yhteyttä järjetelmänvalvojaan</errorValidateConnect>
+		<errorValidateQuery>Virhe: HIS-link-validoinnin kysely epäonnistui.&#13;&#13;Ota yhteyttä järjetelmänvalvojaan</errorValidateQuery>
+		<errorTooManyFailures>Virhe: liikaa kirjautumisvirhettä, kokeile jälkeen {n} min</errorTooManyFailures>
+		<missingExt>Virhe: PHP "{n}" -kirjastoa ei ole asennettu</missingExt>
+		<missingExtMeddream>Virhe: php_meddream.dll ei asennettu</missingExtMeddream>
+		<testWriteable>Virhe: MedDream hakemistoon ei voida kirjoittaa (vinkki: {r})</testWriteable>
+		<testWriteableTemp>Virhe: 'temp' -alihakemistoon ei voida kirjoittaa (vinkki: {r})</testWriteableTemp>
+		<testWriteableLog>Virhe: 'log' -alihakemistoon ei voida kirjoittaa (vinkki: {r})</testWriteableLog>
+		<isTimezoneError>Virhe: date.timezone ei määritetty php.ini</isTimezoneError>
+		<oldPhpVersion>Virhe: MedDream vaatii PHP 5.3.0 tai uudemman (nykyinen PHP on {v})</oldPhpVersion>
+		<unsupportedCgi>Virhe: PHP on integroitu web-palvelimen kautta "{s}" SAPI. Tämä tila ei tueta.</unsupportedCgi>
+	</login>
+	<Main>
+		<btnLanguage>FI</btnLanguage>
+		<helpURL>locales/en/help.pdf</helpURL>
+		<btnSearch>Etsi</btnSearch>
+		<btnLogoff>Kirjaudu ulos</btnLogoff>
+		<btnPlugin>Pluginit</btnPlugin>
+		<btnChanels>Kanavat</btnChanels>
+		<btnMove>Käsi</btnMove>
+		<btnZoom>Zoomaus</btnZoom>
+		<btnMeasure>Mittaa</btnMeasure>
+		<btnMagnifinder>Suurennuslasi</btnMagnifinder>
+		<btnZoomAll>*Fit</btnZoomAll>
+		<btnZoom11>1:1</btnZoom11>
+		<btnTransform>Muunna</btnTransform>
+		<btnLockScroll>Lock</btnLockScroll>
+		<btnReferenceLines>Viiteviivat</btnReferenceLines>
+		<btnScroll>Vieritys</btnScroll>
+		<btnMultiImage11>1x1</btnMultiImage11>
+		<btnMultiImage22>2x2</btnMultiImage22>
+		<btnScreenLayout11>1x1</btnScreenLayout11>
+		<btnScreenLayout12>1x2</btnScreenLayout12>
+		<btnScreenLayout22>2x2</btnScreenLayout22>
+		<btnScreenLayout>Asettelu</btnScreenLayout>
+		<btnThumbnailsPosition>Pikkukuvat</btnThumbnailsPosition>
+		<btnPrint>Tulosta</btnPrint>
+		<btnForward>Eteen</btnForward>
+		<btnBurn>Polta</btnBurn>
+		<btnDownload>Tallenna</btnDownload>
+		<btnReset>Tyhjätä</btnReset>
+		<btnAnnotation>i</btnAnnotation>
+		<btnmpr>MPR</btnmpr>
+		<btnCine>Cine-tila</btnCine>
+		<btnFilter>Suodatin 1</btnFilter>
+		<btnoriginal>Originaali</btnoriginal>
+		<btncompare>Verrata EKG</btncompare>
+		<btnbanpassfilter>50 Hz</btnbanpassfilter>
+		<btnSettings>Asetukset</btnSettings>
+		<btnInfo>Tietoja</btnInfo>
+		<btnHelp>Ohje</btnHelp>
+		<btnFullScreen>Kokonäyttö</btnFullScreen>
+		<btnClose>Sulje</btnClose>
+		<btnWL>*Windowing</btnWL>
+		<btnWL.toolTip>Ikkunointi (W)</btnWL.toolTip>
+		<btnMove.toolTip>Käsi (H)</btnMove.toolTip>
+		<btnZoom.toolTip>Zoomaus (+/-)</btnZoom.toolTip>
+		<btnMeasure.toolTip>Mittaa</btnMeasure.toolTip>
+		<btnMagnifinder.toolTip>Suurennuslasi (M)</btnMagnifinder.toolTip>
+		<btnZoomAll.toolTip>Sovita näyttöön (2)</btnZoomAll.toolTip>
+		<btnZoom11.toolTip>1:1 Resoluutio (1)</btnZoom11.toolTip>
+		<btnTransform.toolTip>Muunna</btnTransform.toolTip>
+		<btnLockScroll.toolTip>Lukitse vieritys</btnLockScroll.toolTip>
+		<btnScroll.toolTip>Aseta vieritys</btnScroll.toolTip>
+		<btnReferenceLines.toolTip>Viiteviivat</btnReferenceLines.toolTip>
+		<btnNotes.toolTip>Raportti</btnNotes.toolTip>
+		<btnMultiImage11.toolTip>1x1 Monikuva</btnMultiImage11.toolTip>
+		<btnMultiImage22.toolTip>2x2 Monikuva</btnMultiImage22.toolTip>
+		<btnScreenLayout11.toolTip>1x1 Ruudun asettelu</btnScreenLayout11.toolTip>
+		<btnScreenLayout12.toolTip>1x2 Ruudun asettelu</btnScreenLayout12.toolTip>
+		<btnScreenLayout22.toolTip>2x2 Ruudun asettelu</btnScreenLayout22.toolTip>
+		<btnScreenLayout.toolTip>Ruudun asettelu</btnScreenLayout.toolTip>
+		<btnThumbnailsPosition.toolTip>Pikakuvakkeen paikka vasen/ala</btnThumbnailsPosition.toolTip>
+		<btnForward.toolTip>Eteen</btnForward.toolTip>
+		<btnBurn.toolTip>Polta</btnBurn.toolTip>
+		<btnPrint.toolTip>Tulosta</btnPrint.toolTip>
+		<btnReports.toolTip>Raportit</btnReports.toolTip>
+		<btnSettings.toolTip>Asetukset</btnSettings.toolTip>
+		<btnInfo.toolTip>Tietoja</btnInfo.toolTip>
+		<btnHelp.toolTip>Ohje (F1)</btnHelp.toolTip>
+		<btnFullScreen.toolTip>Kokonäyttö</btnFullScreen.toolTip>
+		<btnPlugin.toolTip>Pluginit</btnPlugin.toolTip>
+		<btnChanels.toolTip>RGB-kanavat</btnChanels.toolTip>
+		<btnCine.toolTip>Cine-tila</btnCine.toolTip>
+		<btntags.toolTip>*Show DICOM file header</btntags.toolTip>
+		<windowingDefault>*Default</windowingDefault>
+		<windowingAuto>*Auto</windowingAuto>
+		<windowingAbdomen>*Abdomen</windowingAbdomen>
+		<windowingBone>*Bone</windowingBone>
+		<windowingCerebrum>*Cerebrum</windowingCerebrum>
+		<windowingLiver>*Liver</windowingLiver>
+		<windowingLung>*Lung</windowingLung>
+		<windowingMediastinum>*Mediastinum</windowingMediastinum>
+		<windowingPelvis>*Pelvis</windowingPelvis>
+		<windowingPosteriorFossa>*Posterior Fossa</windowingPosteriorFossa>
+		<windowingInvert>*Invert (I)</windowingInvert>
+		<msgImage>kuva</msgImage>
+		<msgNoLicense>Lisenssiä ei löydy</msgNoLicense>
+		<msgConnectionLost>Yhteys katkesi!</msgConnectionLost>
+		<msgCantConnect>Ei voida yhdistää!</msgCantConnect>
+		<msgLicenseSupportOneCon>Lisenssi tukee vain yhtä {product} tahoa palvelimella</msgLicenseSupportOneCon>
+		<msgLicenseError>Lisenssivirhe</msgLicenseError>
+		<msgError>Virhe</msgError>
+		<msgInstallError>Asennusvirhe</msgInstallError>
+		<msgXmlError>Virhe: settings.xml syntaksi väärin</msgXmlError>
+		<msgMdVersionMismatch>{product} .swf tiedostoversio väärä</msgMdVersionMismatch>
+		<msgMdVersionOld>Päivitä lisenssisi ohjelmiston uusimpaan versioon</msgMdVersionOld>
+		<msgMdLicenseOld>Vanhentunut lisenssi</msgMdLicenseOld>
+		<msgMdManyUsers>Liian monta käyttäjää liitettynä&#13;Odota muutama minuutti ja yritä uudelleen</msgMdManyUsers>
+		<msgMdLicenseBad>Lisenssi ei voimassa</msgMdLicenseBad>
+		<msgNoReport>Ei raporttia</msgNoReport>
+		<transformDataProvider1>Kieritä oikealle</transformDataProvider1>
+		<transformDataProvider2>Kieritä vasemmalle</transformDataProvider2>
+		<transformDataProvider4>Käännä vaakasuunnassa</transformDataProvider4>
+		<transformDataProvider5>Käännä pystysuunnassa</transformDataProvider5>
+		<measureDataProvider1>Viiva</measureDataProvider1>
+		<measureDataProvider2>Näytä kulmat</measureDataProvider2>
+		<measureDataProvider3>Kulma</measureDataProvider3>
+		<measureDataProvider4>Polyline</measureDataProvider4>
+		<measureDataProvider5>Pinta-ala</measureDataProvider5>
+		<measureDataProvider6>Tilavuus</measureDataProvider6>
+		<measureDataProvider7>Kalibrointi</measureDataProvider7>
+		<measureDataProvider8>Vahvuus</measureDataProvider8>
+		<measureDataProvider9>Poista kaikki</measureDataProvider9>
+		<measureDataProvider10>*Cobb Angle</measureDataProvider10>
+		<measureDataProvider11>*Points</measureDataProvider11>
+		<measureDataProvider12>*Save annotation</measureDataProvider12>
+		<measureDataProvider15>*Norberg Angle</measureDataProvider15>
+		<measureDataProvider16>*Text</measureDataProvider16>
+		<measureDataProviderECG1>*Measurement (mV, s)</measureDataProviderECG1>
+		<measureDataProviderECG2>*QT points (RR, QT, QTc)</measureDataProviderECG2>
+		<print>Tulosta</print>
+		<printwithimages>Tulosta kuvien kanssa</printwithimages>
+		<printSeries>Tulosta sarjat</printSeries>
+		<printDicom>DICOM tulostus</printDicom>
+		<chanelDefault>Oletus</chanelDefault>
+		<chanelRed>Punainen</chanelRed>
+		<chanelGreen>Vihreä</chanelGreen>
+		<chanelBlue>Sininen</chanelBlue>
+		<chanelRedGreen>Punainen, Vihreä</chanelRedGreen>
+		<chanelRedBlue>Punainen, Sininen</chanelRedBlue>
+		<chanelGreenBlue>Vihreä, Sininen</chanelGreenBlue>
+		<msgUpload>Tuo tiedostosta</msgUpload>
+		<cbfilter>Poista/aseta suodatin 1</cbfilter>
+		<cbsmooth>Poista/aseta pehmennys</cbsmooth>
+		<mprwarning>Kuva siivu voi olla väärä, koska eri kuvia!</mprwarning>
+		<msginvalidframes>Virheellinen kehysaluetta!</msginvalidframes>
+		<msgclosestudies>Sulje opinnot</msgclosestudies>
+		<btnReset.toolTip>Asettaa uudelleen</btnReset.toolTip>
+		<savedpresentationstateerror>*Error sending dicom, please see the log</savedpresentationstateerror>
+		<savedpresentationstate>*Measurements saved to&#13;Presentation State DICOM (modality=PR)</savedpresentationstate>
+		<btnFilter.toolTip>*Show or hide filtered ECG data</btnFilter.toolTip>
+		<btnoriginal.toolTip>*Show or hide not filtered ECG data</btnoriginal.toolTip>
+		<btncompare.toolTip>*Compare ECG data</btncompare.toolTip>
+		<cbscompare>*Compare</cbscompare>
+		<msgnoecgdataselected>*No ECG data selected</msgnoecgdataselected>
+		<btnbanpassfilter.toolTip>*Add or remove 50/60 Hz filter</btnbanpassfilter.toolTip>
+		<btnsenddicomlibrary>*Share</btnsenddicomlibrary>
+		<btnsenddicomlibrary.toolTip>*Share files via Dicom Library</btnsenddicomlibrary.toolTip>
+	</Main>
+	<SaveImagesForm>
+		<group1>Formaatti</group1>
+		<group2>Tallenna aktiviinen</group2>
+		<rbSaveImage>Tallenna aktiivine kuva/video</rbSaveImage>
+		<rbSaveSeries>Tallenna aktiiviset sarjat</rbSaveSeries>
+		<rbSaveStudy>*Save Active Study</rbSaveStudy>
+		<msgCollecting>KERÄTÄÄN</msgCollecting>
+		<msgDownloading>LADATAAN</msgDownloading>
+		<msgDownloadCancel>LATAUS PERUTTU</msgDownloadCancel>
+		<msgDownloadComplete>LATAUS VALMIS</msgDownloadComplete>
+		<title>TALLENTAA</title>
+		<btnSave>Tallentaa</btnSave>
+	</SaveImagesForm>
+	<AboutForm>
+		<title>Tietoja</title>
+		<msgunlimited>Rajoittamaton</msgunlimited>
+		<lblconnection>Samanaikaisten yhteyksien:</lblconnection>
+		<msgconnections>Yhdistetty:</msgconnections>
+		<lbllicenseto>Lisensoitu:</lbllicenseto>
+		<lblvalidto>Lisenssi voimassa:</lblvalidto>
+		<lblupdateto>Päivitykset voimassa:</lblupdateto>
+		<lblversion>Versio:</lblversion>
+		<lblcontacts>Yhteydet:</lblcontacts>
+		<lblmdc>Lääketieteellisen laitteen luokka:</lblmdc>
+		<lblmodule>Moduulit:</lblmodule>
+		<btnOK>OK</btnOK>
+		<lblproduct>*Product:</lblproduct>
+		<guiversion>*GUI version:</guiversion>
+		<lblReleaseDate>*Release Date:</lblReleaseDate>
+		<notified>*ID of the notified body:</notified>
+		<msgoutofdate>*(version is out of date)</msgoutofdate>
+		<msguptodate>*(version is up to date)</msguptodate>
+		<msgusernewversion>*For new version, please contact your system&#13;administrator</msgusernewversion>
+		<msgrootnewversion>*Get the latest version from link{www.softneta.com}&#13;or if you want to know more about new&#13;versions, you can e-mail us:email{info@softneta.com}</msgrootnewversion>
+		<msglicenseistoold>*Your license is too old for this update,&#13;contact email{info@softneta.com} for current&#13;prices.</msglicenseistoold>
+		<lblmanufactured>*Manufactured by:</lblmanufactured>
+		<lblFda>*FDA Cleared:</lblFda>
+		<lblFdatext>*For diagnostic use K162011 (device class: 2)</lblFdatext>
+	</AboutForm>
+	<CustomWLForm>
+		<btnApply>Ota käyttöön</btnApply>
+		<btnClose>Sulje</btnClose>
+	</CustomWLForm>
+	<SearchForm>
+		<title>Etsi</title>
+		<titleLimitedViewAccess>Etsi (rajoitettu näkymä)</titleLimitedViewAccess>
+		<btnSearch>Etsi</btnSearch>
+		<popLabelPatientID>Potilaan tunnus</popLabelPatientID>
+		<popSelectedPatientID>Potilaan tunnus:</popSelectedPatientID>
+		<popLabelPatientName>Potilaan nimi</popLabelPatientName>
+		<popSelectedPatientName>Potilaan nimi:</popSelectedPatientName>
+		<popLabelStudyID>Tutkimustunnus</popLabelStudyID>
+		<popSelectedStudyID>Tutkimustunnus:</popSelectedStudyID>
+		<popLabelAccession>Liittymisnumero</popLabelAccession>
+		<popSelectedAccession>Liittymisnumero:</popSelectedAccession>
+		<popLabelDescription>Kuvaus</popLabelDescription>
+		<popSelectedDescription>Kuvaus:</popSelectedDescription>
+		<popLabelReferringPhysician>Lähettävä lääkäri</popLabelReferringPhysician>
+		<popSelectedReferringPhysician>Lähettävä lääkäri:</popSelectedReferringPhysician>
+		<popLabelReadingPhysician>Lukeva lääkäri</popLabelReadingPhysician>
+		<popSelectedReadingPhysician>Lukeva lääkäri:</popSelectedReadingPhysician>
+		<cbToDate>Päättyen:</cbToDate>
+		<cbFromDate>Alkaen:</cbFromDate>
+		<btnToday>Tänään</btnToday>
+		<btnYesterday>Eilen</btnYesterday>
+		<btnModAll>Kaikki</btnModAll>
+		<btnModNone>Ei mitään</btnModNone>
+		<btnOpen>Avaa</btnOpen>
+		<btnCancel>Peruuta</btnCancel>
+		<listPatientID>Potilaan tunnus</listPatientID>
+		<listPatientName>Nimi</listPatientName>
+		<listPatientBirthdate>Syntymäpäivä</listPatientBirthdate>
+		<listStudyID>Tutkimustunnus</listStudyID>
+		<listAccession>Liittymisnumero</listAccession>
+		<listModality>Mod</listModality>
+		<listDescription>Kuvaus</listDescription>
+		<listDate>Päiväys</listDate>
+		<listTime>Aika</listTime>
+		<listDateTime>Aika</listDateTime>
+		<listReviewed>Tarkastettu</listReviewed>
+		<listReferringPhysician>Lähettävä lääkäri</listReferringPhysician>
+		<listReadingPhysician>Lukeva lääkäri</listReadingPhysician>
+		<listSourceAE>Lähde AE</listSourceAE>
+		<listReceivedOn>Vastaanotettu</listReceivedOn>
+		<dayNames>S,M,T,K,T,P,L</dayNames>
+		<monthNames>tammi,helmi,maalis,huhti,touko,kesä,heinä,elo,syys,loka,marras,joulu</monthNames>
+		<firstDayOfWeek>1</firstDayOfWeek>
+		<btnForwardStudy>Lähetä edelleen</btnForwardStudy>
+		<btnExportStudy>Vie levylle</btnExportStudy>
+		<cbAddStudy>Lisää</cbAddStudy>
+		<lblInfo>Löytyi liian monta kohdetta!</lblInfo>
+		<msgInfoNoItems>Kohteita ei löytynyt!</msgInfoNoItems>
+	</SearchForm>
+	<medreport>
+		<pnlTemplates>MALLIPOHJAT</pnlTemplates>
+		<btnInsertTemplate>Aseta &gt;&gt;</btnInsertTemplate>
+		<btnNewTemplate>Uusi</btnNewTemplate>
+		<btnEditTemplate>Muokkaa</btnEditTemplate>
+		<btnDeleteTemplate>Poista</btnDeleteTemplate>
+		<pnlReport>RAPORTTI</pnlReport>
+		<lblStudyTime>Tutkimuksen aika</lblStudyTime>
+		<lblReportTime>Raportin aika:</lblReportTime>
+		<btnEdit>Muokkaa</btnEdit>
+		<btnSave>Tallenna</btnSave>
+		<btnPrint>Tulosta</btnPrint>
+		<btnAddTemplate>&lt;&lt; Lisää mallipohja</btnAddTemplate>
+		<lblStudyIDValue>Tutkimustunnus:</lblStudyIDValue>
+		<lblPatientIDValue>Potilaan tunnus:</lblPatientIDValue>
+		<lblPatientNameValue>Potilaan nimi</lblPatientNameValue>
+		<lblPatientBirthDateValue>Syntymäpäivä:</lblPatientBirthDateValue>
+		<lblStudyPhysicianValue>Lääkäri:</lblStudyPhysicianValue>
+		<lblPatientHistoryValue>Historia:</lblPatientHistoryValue>
+		<msgDeleteTemplate>Mallipohja poistetaan. Haluatko poistaa valitun mallipohjan?</msgDeleteTemplate>
+		<msgReplaceReport>Raportti korvataan valitulla mallipohjalla Haluatko varmasti korvata raportin?</msgReplaceReport>
+		<yesAlertLabel>Kyllä</yesAlertLabel>
+		<noAlertLabel>Ei</noAlertLabel>
+		<btnUpload.toolTip>*Upload</btnUpload.toolTip>
+		<btnDownload.toolTip>*Download</btnDownload.toolTip>
+		<btnDelete.toolTip>*Delete</btnDelete.toolTip>
+		<msgDelete>*Delete "{item}"?</msgDelete>
+	</medreport>
+	<TemplateForm>
+		<title>Mallipohja</title>
+		<lblGroupName>Mallipohjan ryhmä: </lblGroupName>
+		<lblName>Mallipohjan nimi:</lblName>
+		<selectGroup>Valitse ryhmä</selectGroup>
+		<btnOk>Tallenna</btnOk>
+		<btnCancel>Peruuta</btnCancel>
+		<TemplateNameError>Mallin nimi ei voi olla tyhjä</TemplateNameError>
+	</TemplateForm>
+	<ReportForm>
+		<title>Raportti</title>
+		<lblStudyDateTime>Tutkimuksen aika</lblStudyDateTime>
+		<lblStudyID>Tutkimustunnus:</lblStudyID>
+		<lblReportDateTime>Raportin aika:</lblReportDateTime>
+		<lblPatientID>Potilaan tunnus:</lblPatientID>
+		<lblPatientName>Potilaan nimi:</lblPatientName>
+		<btnClose>Sulje</btnClose>
+	</ReportForm>
+	<HeaderButtons>
+		<msgNoteButtonWrite>Kirjoita raportti</msgNoteButtonWrite>
+		<msgNoteButtonEdit>Muokkaa raporttia</msgNoteButtonEdit>
+		<msgNoteButtonView>Näytä raportti</msgNoteButtonView>
+		<msgPatient>Potilas</msgPatient>
+		<btnStudyRefresh>Tutkimus päivitettiin - virkistää</btnStudyRefresh>
+	</HeaderButtons>
+	<ForwardForm>
+		<title>Eteen</title>
+		<lblPatientID>Potilaan tunnus</lblPatientID>
+		<lblPatientName>Potilaan nimi</lblPatientName>
+		<lblStudyDate>Tutkimuksen päiväys</lblStudyDate>
+		<lblStudyTime>Tutkimuksen aika</lblStudyTime>
+		<lblStudyDescription>Tutkimuksen kuvaus</lblStudyDescription>
+		<btnForwardTo>Lähetä edelleen</btnForwardTo>
+		<btnClose>Sulje</btnClose>
+	</ForwardForm>
+	<ExportForm>
+		<title>Vie</title>
+		<lblPatientID>Potilaan tunnus</lblPatientID>
+		<lblPatientName>Potilaan nimi</lblPatientName>
+		<lblStudyDate>Tutkimuksen päiväys</lblStudyDate>
+		<lblStudyTime>Tutkimuksen aika</lblStudyTime>
+		<lblStudyDescription>Tutkimuksen kuvaus</lblStudyDescription>
+		<btnExport>Vie</btnExport>
+		<listName>Volyymit</listName>
+		<listISO>ISO-image</listISO>
+		<listBurn>Polta</listBurn>
+		<btnDownloadISO>Lataa ISO</btnDownloadISO>
+		<btnBurnNow>Polta nyt</btnBurnNow>
+		<btnClose>Sulje</btnClose>
+	</ExportForm>
+	<SettingsForm>
+		<title>Asetukset</title>
+		<cntDicomView>DICOM-näkymä</cntDicomView>
+		<cbAutoStartMultiFrame>AutoStart Multi-Frame kuvat</cbAutoStartMultiFrame>
+		<cntScreenLayout>Ruudun asettelu</cntScreenLayout>
+		<lblScreenLayoutRows>Rivit:</lblScreenLayoutRows>
+		<lblScreenLayoutColumns>Sarakkeet:</lblScreenLayoutColumns>
+		<lblTopToolbarWidth>Ylätyökalupalkin leveys:</lblTopToolbarWidth>
+		<lblThumbnailsPosition>Pikakuvakkeiden paikka:</lblThumbnailsPosition>
+		<lblThumbnailsLeftSize>Pikakuvakkeet pystypalkki sarjan koko:</lblThumbnailsLeftSize>
+		<lblThumbnailsBottomSize>Pikakuvakkeet vaakapalkki sarjan koko:</lblThumbnailsBottomSize>
+		<btnThumbnailsLeft.toolTip>Vasen</btnThumbnailsLeft.toolTip>
+		<btnThumbnailsBottom.toolTip>Alaosa</btnThumbnailsBottom.toolTip>
+		<cntInfoLabels>Infoetiketit</cntInfoLabels>
+		<lblLeftSideInformation>Vasemman puolen tiedot</lblLeftSideInformation>
+		<lblRightSideInformation>Oikean puolen tiedot</lblRightSideInformation>
+		<lblInfolabelsSize>*Font size (13 by default) when&#13;image size is more than:</lblInfolabelsSize>
+		<vbxStyle>Tyyli</vbxStyle>
+		<btnOK>OK</btnOK>
+		<btnCancel>Peruuta</btnCancel>
+		<lblAutoOpenFirstImage>Avaa automaattisesti ensimmäinen kuva:</lblAutoOpenFirstImage>
+		<rbAutoOpenNo>Ei</rbAutoOpenNo>
+		<rbAutoOpenSingle>Yksi</rbAutoOpenSingle>
+		<rbAutoOpenAlways>Aina</rbAutoOpenAlways>
+		<cbStreaming>DICOM Flow (lataa kaikki tutkimuskuvat peräkkäin)</cbStreaming>
+		<lblThumbnailsSize>Esikatselukuvan koko:</lblThumbnailsSize>
+		<lblThumbnailsSingleClick>Pikakuvakkeet yksi napautus</lblThumbnailsSingleClick>
+		<btnThumbnailsSingleClick.toolTip>Pikakuvakkeiden hiiren yksi napautus</btnThumbnailsSingleClick.toolTip>
+		<lblReports>Raportit:</lblReports>
+		<lblScreenLayoutScale>Asteikko:</lblScreenLayoutScale>
+		<lblurl>Raportin URL:</lblurl>
+		<lblReportPosition>Raportin paikka:</lblReportPosition>
+		<btnReportsMax.toolTip>Raportit</btnReportsMax.toolTip>
+		<btnReportsLeft.toolTip>Raportit vasemmalla</btnReportsLeft.toolTip>
+		<btnReportsCenter.toolTip>Raportit keskellä</btnReportsCenter.toolTip>
+		<btnReportsRight.toolTip>Raportit oikealla</btnReportsRight.toolTip>
+		<lblReportPopup>Raportit ponnahdusikkunassa</lblReportPopup>
+		<btnReportsPopup.toolTip>Raportit eri ikkunassa</btnReportsPopup.toolTip>
+		<lblStyle>Tyylin mallipohja:</lblStyle>
+		<btnDeleteStyles>Poista</btnDeleteStyles>
+		<lblStyleName>Tyylin nimi:</lblStyleName>
+		<btnStylesUpdate>Nimeä uudelleen</btnStylesUpdate>
+		<lblcolor1>Painikkeet:</lblcolor1>
+		<cpBut1.toolTip>Painikkeen yläväri</cpBut1.toolTip>
+		<cpBut2.toolTip>Painikkeen pohjaväri</cpBut2.toolTip>
+		<cpButTheme.toolTip>Painikkeen teemaväri</cpButTheme.toolTip>
+		<cpButText.toolTip>Painikkeen tekstin väri</cpButText.toolTip>
+		<lblcolor2>Valitut painikkeet:</lblcolor2>
+		<cpButSelec1.toolTip>Valitun painikkeen yläväri</cpButSelec1.toolTip>
+		<cpButSelec2.toolTip>Valitun painikkeen pohjaväri</cpButSelec2.toolTip>
+		<cpButThemeSelec.toolTip>Valitun painikkeen teemaväri</cpButThemeSelec.toolTip>
+		<cpButTextSelec.toolTip>Valitun painikkeen tekstin väri</cpButTextSelec.toolTip>
+		<lblcolor3>Taustat:</lblcolor3>
+		<cpMainBg.toolTip>Ikkunan taustan väri</cpMainBg.toolTip>
+		<cpContentbg.toolTip>Ikkunan sisätaustaväri</cpContentbg.toolTip>
+		<cpBorderBg.toolTip>Ikkunan reunan väri</cpBorderBg.toolTip>
+		<lblcolor4>Etiketit:</lblcolor4>
+		<cpLabel.toolTip>Etiketin tekstin väri</cpLabel.toolTip>
+		<lblcolor5>Syötöt:</lblcolor5>
+		<cpInput.toolTip>Syötetyn teksitn väri</cpInput.toolTip>
+		<cpInputBg.toolTip>Syötetty taustaväri</cpInputBg.toolTip>
+		<lblcolor6>Valikko:</lblcolor6>
+		<cpMenuText.toolTip>Valikon tekstin väri</cpMenuText.toolTip>
+		<cpMenuBorder.toolTip>Valikon reunan väri</cpMenuBorder.toolTip>
+		<cpMenuTheme.toolTip>Valikon teeman väri</cpMenuTheme.toolTip>
+		<cpMenuBg.toolTip>Valikon taustaväri</cpMenuBg.toolTip>
+		<lblcolor7>Dataruudukot: </lblcolor7>
+		<cpGrid1.toolTip>Tietoruudukko viivan väri</cpGrid1.toolTip>
+		<cpGrid2.toolTip>tietoruudukko toisen viivan väri</cpGrid2.toolTip>
+		<cpGridselect.toolTip>Tietoruudukko valitun viivan väri</cpGridselect.toolTip>
+		<cpGridRol.toolTip>Tietoruudukko hiiren ylitysviivan väri</cpGridRol.toolTip>
+		<cpGridText.toolTip>Tietoruudukko tekstin väri</cpGridText.toolTip>
+		<cpGridTextSelecr.toolTip>Tietoruudukko valitun tekstin väri</cpGridTextSelecr.toolTip>
+		<cpGridBorder.toolTip>Tietoruudukko reunan väri</cpGridBorder.toolTip>
+		<lblcolor8>Kuvaetiketit:</lblcolor8>
+		<cpImage.toolTip>Pikakuvakeet, avatun kuvan etiketit tekstin väri</cpImage.toolTip>
+		<msgStyleExsist>Tyylin nimi "{style}" on jo olemassa</msgStyleExsist>
+		<vbxToolbar>Työkalupalkki</vbxToolbar>
+		<lblList1>Näytä:</lblList1>
+		<lblList2>Piilota:</lblList2>
+		<btnHide.toolTip>Piilota</btnHide.toolTip>
+		<btnShow.toolTip>Näytä</btnShow.toolTip>
+		<btnHideAll.toolTip>Piilota työkalupalkki</btnHideAll.toolTip>
+		<btnlocalclear>*Clear local settings</btnlocalclear>
+		<btnlocal>*Update local settings</btnlocal>
+		<msgRestart>*Changes will come into effect&#13;after the next login</msgRestart>
+		<vbxSearchGrid>Etsi</vbxSearchGrid>
+		<lblMultiScreenMode>*Multiple monitor mode:</lblMultiScreenMode>
+		<btnMultiScreenMode.toolTip>*Enable/disable multiple monitor support</btnMultiScreenMode.toolTip>
+		<lblautologout>*Auto logout after:</lblautologout>
+		<labDefaultviewer>*Default viewer:</labDefaultviewer>
+	</SettingsForm>
+	<DicomViewContextMenu>
+		<cmiImageLinkJPEG>Kopioi kuvan linkki (JPEG)</cmiImageLinkJPEG>
+		<cmiSaveImages>Tallenna kuvat...</cmiSaveImages>
+		<cmiCineMode>Cine-tila</cmiCineMode>
+	</DicomViewContextMenu>
+	<RegisterForm>
+		<msgInvalidSerial>Väärä sarjanumero!</msgInvalidSerial>
+		<organizationLabel>Organisaatio:</organizationLabel>
+		<serialLabel>Sarjanumero:</serialLabel>
+		<reloginlabel>Lisenssi on käytössä seuraavasta sisäänkirjautumisesta</reloginlabel>
+		<msgInvalidLicense>Väärät lisenssitiedot.&#13;Poista lisenssitiedosto, käynnistä asiakaskone uudelleen ja yritä rekiteröintiä uudelleen</msgInvalidLicense>
+		<btnRegister>Rekisteröi</btnRegister>
+		<msgAllFieldMustBeFilled>Kaikki kentät tulee täyttää</msgAllFieldMustBeFilled>
+		<btnBuy>OSTA NYT!</btnBuy>
+	</RegisterForm>
+	<Common>
+		<msgNoDataYes>KYLLÄ</msgNoDataYes>
+		<msgNoDataNo>EI</msgNoDataNo>
+		<msgNoDataClose>Sulje</msgNoDataClose>
+		<btnOK>OK</btnOK>
+		<btnClose>Sulje</btnClose>
+		<btnCancel>Peruuta</btnCancel>
+		<btnDelete>Poista</btnDelete>
+		<msgWait>Odota</msgWait>
+	</Common>
+	<PrintPage>
+		<title>Tulostusasetukset</title>
+		<toolTips>Sivun asettelu</toolTips>
+		<btnOK>OK</btnOK>
+		<btnCancel>Peruuta</btnCancel>
+	</PrintPage>
+	<PluginView>
+		<btnRender>Renderöi</btnRender>
+		<btnChange.toolTip>Vaihda näkymää</btnChange.toolTip>
+		<btnClose>Sulje</btnClose>
+		<box1>Alkuperäinen</box1>
+		<box2>Renderöity</box2>
+	</PluginView>
+	<Upload>
+		<msgUploadProgress>Lähetetty</msgUploadProgress>
+	</Upload>
+	<export>
+		<Unlimited>*Unlimited (a single volume)</Unlimited>
+	</export>
+	<annotation>
+		<SaveAnnotationModal>*SAVE ANNOTATION</SaveAnnotationModal>
+		<Title>*Title</Title>
+		<Required>*Required</Required>
+		<msgRequiredFileds>*Required:{fields}</msgRequiredFileds>
+		<Description>*Description</Description>
+		<StoringType>*Storing type</StoringType>
+		<Save>*Save</Save>
+		<Error_1>*You can't create annotation, because you are using not original instance data.</Error_1>
+	</annotation>
+	<DicomLibrary>
+		<title>*SHARE FILES VIA DICOM LIBRARY</title>
+		<lbemailto>*Email to</lbemailto>
+		<lbemailfrom>*Email from</lbemailfrom>
+		<lbmessage>*Message</lbmessage>
+		<btnsend>*Send</btnsend>
+		<msgemialfrom>*Will receive email with view and management link to Dicom Library</msgemialfrom>
+		<msgemialto>*Will receive email with view link to Dicom Library</msgemialto>
+		<msginvalidemail>*Invalid email</msginvalidemail>
+		<lblDrop>*Drag and drop images here</lblDrop>
+		<lblSubject>*Subject</lblSubject>
+		<cbNotRobot>*I'm not a robot</cbNotRobot>
+		<lblWarning>*Use sensitive data at your own risk</lblWarning>
+		<msgRequestInLine>*The request was accepted and is waiting for its turn</msgRequestInLine>
+		<msgNoImage>*No image selected</msgNoImage>
+	</DicomLibrary>
+	<settings>
+		<logOutTimer>*Auto logout after:</logOutTimer>
+	</settings>
+	<branding>
+		<errorValidateBranding>*Error: Branding file rebranding/rebranding_configuration.json is not valid</errorValidateBranding>
+	</branding>
+</languages>
