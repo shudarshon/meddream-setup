@@ -2,7 +2,7 @@
 
 MedDream is a web based DICOM Viewer. DICOM is a standard for storing and transmitting medical images. In this repository, I am going to setup meddrream viewer on Ubutu AWS machine.
 
-Meddream is a PHP application and both nginx and apache web server will be used in the scenario. Nginx will reverse proxy requests to apache and apache web server will serve the application. In order to run this script we have to make sure that fabric library is installed in the host machine. To install fabric,
+Meddream is a PHP application and both nginx and apache web server will be used in the scenario. Although NGINX and apache is capable of serving PHP application independently but I have done this staff as a fun. Nginx will reverse proxy requests to apache and apache web server will serve the application. In order to run this script we have to make sure that fabric library is installed in the host machine. To install fabric,
 
 ```
 $ curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
